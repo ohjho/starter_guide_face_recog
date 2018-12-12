@@ -53,7 +53,21 @@ Here are some **templates** to get yous started:
 * [OpenCV]()
 ---
 ## References
+
+### Tutorials
 * An Intro [video by Youttube star Siraj Raval](https://www.youtube.com/watch?v=4eIBisqx9_g&amp=&t=1116s)
+* [Building a Face Detection Model from Video using Deep Learning](https://www.analyticsvidhya.com/blog/2018/12/introduction-face-detection-video-deep-learning-python/)
+* [Using OpenCV to play "Where's Waldo?"](https://machinelearningmastery.com/using-opencv-python-and-template-matching-to-play-wheres-waldo/)
+* [OpenCV Face Recognition](https://www.pyimagesearch.com/2018/09/24/opencv-face-recognition/)
+* [YOLO: Real-time Object Detection](https://pjreddie.com/darknet/yolo/)
+
+### Libraries
+* [dlib][url_dlib]
+* [face_recognition][url_facerecog]
+
+### Documentations
+* [dlib](http://dlib.net/)
+* [OpenCV](https://docs.opencv.org/3.4.3/de/d27/tutorial_table_of_content_face.html)
 
 ---
 ## :black_nib: License
@@ -61,3 +75,4 @@ The content of this project is licensed under the [MIT license](_text_files/LICE
 
 [url_dlib]: https://github.com/davisking/dlib/
 [url_dlib_installnote]: https://gist.github.com/ageitgey/629d75c1baac34dfa5ca2a1928a7aeaf
+[url_facerecog]: https://github.com/ageitgey/face_recognition
