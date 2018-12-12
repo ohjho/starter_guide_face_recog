@@ -1,7 +1,6 @@
 # :rocket: A Starter Guide to Image Recognition in Python :snake:
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-[![ForTheBadge built-with-ipynb](http://ForTheBadge.com/images/badges/built-with-ipynb.svg)](https://jupyter.org/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 ## How to Use this repo
@@ -10,7 +9,7 @@
 $ git clone https://github.com/ohjho/starter_guide_img_recog.git
 $ cd start_guide_img_recog
 ```
-2. install the requirements. We *highly recommend* doing this inside a [virtualenv](https://virtualenvwrapper.readthedocs.io/en/latest/):
+2. install the requirements. We **highly recommend** doing this inside a [virtualenv](https://virtualenvwrapper.readthedocs.io/en/latest/):
 ```
 $ pip install -r _text_files/requirements.txt
 ```
@@ -29,7 +28,7 @@ $ jupyter notebook
 ## :clipboard: Boilerplates
 What to start working on an Image Recognition project?!
 
-Here are some *templates* to get yous started:
+Here are some **templates** to get yous started:
 * [YOLO3]()
 * [OpenCV]()
 ---
