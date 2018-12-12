@@ -5,7 +5,21 @@
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 ## How to Use this repo
-
+1. Clone this repo:
+```
+$ git clone https://github.com/ohjho/starter_guide_img_recog.git
+$ cd start_guide_img_recog
+```
+2. install the requirements. We *highly recommend* doing this inside a [virtualenv](https://virtualenvwrapper.readthedocs.io/en/latest/):
+```
+$ pip install -r _text_files/requirements.txt
+```
+3. Start Jupyter notebook
+```
+$ cd _templates
+$ jupyter notebook
+```
+4. Have fun and build some awesome projects :smile:
 ---
 ## :camera: What is Image Recognition
 ### A Brief History
