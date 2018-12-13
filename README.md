@@ -13,6 +13,8 @@ $ cd start_guide_img_recog
 ```
 $ pip install -r _text_files/requirements.txt
 ```
+and just check and resolve any packages dependency issues if any show up under `pip check`. It should say `No broken requirements found.`
+
 3. Start Jupyter notebook
 ```
 $ cd _templates
