@@ -1,4 +1,4 @@
-# :rocket: A Starter Guide to Image Recognition in Python :snake:
+# :rocket: A Starter Guide to Face Detection & Recognition in Python :snake:
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
@@ -22,9 +22,9 @@ $ jupyter notebook
 ```
 4. Have fun and go build some awesome projects! :surfer:
 ---
-## :camera: What is Image Recognition
+## :camera: What is Face Detection and Recognition
 ### A Brief History
-### Image Recognition Now
+### Face Detection & Recognition Now
 
 #### OpenCV
 Standing for Open Source Computer Vision, written originally in C/C++ but now with binding for Python.
