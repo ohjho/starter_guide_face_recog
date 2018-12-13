@@ -60,8 +60,9 @@ $ python3 setup.py install
 What to start working on an Image Recognition project?!
 
 Here are some **templates** to get yous started:
+* [OpenCV](_templates/opencv_facedetection.ipynb)
 * [YOLO3]()
-* [OpenCV]()
+
 ---
 ## References
 
