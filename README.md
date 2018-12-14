@@ -12,7 +12,7 @@ $ cd start_guide_img_recog
 2. install the requirements. We **highly recommend** doing this inside a [virtualenv](https://virtualenvwrapper.readthedocs.io/en/latest/):
 ```
 $ pip install -r _text_files/requirements.txt
-```
+
 and just check and resolve any packages dependency issues if any show up under `pip check`. It should say `No broken requirements found.`
 
 3. Start Jupyter notebook
@@ -27,11 +27,31 @@ $ jupyter notebook
 [Placeholder: write something on history to give some context to how awesome it is to have these recognition tools right in python]
 
 ### Face Detection
+Detecting a face is generally easier than recognising a face of a specific person. The structure of a human face usually contains noses, eyes, foreheads, chins and mouths. All of these compose the general structure of a face.
+
 Given an image, tell whether there is any human face, if there is, where is it (or where they are).
 
 #### Face Detection Methods
-* Haar Cascades  
+* Viola-Jones Method (aka Haar Cascades)  
+This is a over-simplified description of the Haar Cascades. 
+Please refer to https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_objdetect/py_face_detection/py_face_detection.html#haar-cascade-detection-in-opencv for a details. 
 ![harr-cascades](https://docs.opencv.org/3.4/haar.png)
+In short, the Haar Cascades 
+The following figures shows how Harr Cascades identify features from a human face.
+<img src='http://eyalarubas.com/images/face-detection-and-recognition/features-eyebrows.jpg' height='300'>
+<img src='http://eyalarubas.com/images/face-detection-and-recognition/features-nose.jpg' height='300'>
+<img src='http://eyalarubas.com/images/face-detection-and-recognition/haar-eyes.jpg' height='300'>
+<img src='http://eyalarubas.com/images/face-detection-and-recognition/features-mouth.jpg' height='300'>
+<img src='http://eyalarubas.com/images/face-detection-and-recognition/features-chin.jpg' height='300'>
+Each of these figures represents a general feature of a human face. Combining all the features together we receive a  minecraft-like resemble of a human face.
+<img src='http://eyalarubas.com/images/face-detection-and-recognition/haar-all.jpg' height = '300'>
+
+In order for this process be quick, it is designed it in such a way that we first check the coarse features which represent the coarse structure of a face; and only if these features match, we continue to the next iteration and use finer features. 
+In each such iteration we can quickly reject areas of the picture which do not match a face, and keep checking those which we are not sure about. 
+In every iteration we increase the certainty that the checked area is indeed a face, until finally we stop and make our determination.
+
+The cascading process accelerates the face detection process by quickly eliminates images that does not contain a face rather than focusing in determining if the image does contain a face. 
+
 
 * Histogram of Oriented Gradients (HOG)  
 <img src='https://cdn-images-1.medium.com/max/800/1*6xgev0r-qn4oR88FrW6fiA.png' height='300'>
