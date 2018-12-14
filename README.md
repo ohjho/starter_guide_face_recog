@@ -12,7 +12,7 @@ $ cd start_guide_img_recog
 2. install the requirements. We **highly recommend** doing this inside a [virtualenv](https://virtualenvwrapper.readthedocs.io/en/latest/):
 ```
 $ pip install -r _text_files/requirements.txt
-
+```
 and just check and resolve any packages dependency issues if any show up under `pip check`. It should say `No broken requirements found.`
 
 3. Start Jupyter notebook
