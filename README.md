@@ -23,6 +23,8 @@ $ jupyter notebook
 4. Have fun and go build some awesome projects! :surfer:
 ---
 ## :camera: What is Face Detection and Recognition
+### A Brief History
+
 ### Face Detection
 Given an image, tell whether there is any human face, if there is, where is it(or where they are).
 
@@ -31,12 +33,13 @@ Given an image, tell whether there is any human face, if there is, where is it(o
 ![harr-cascades](https://docs.opencv.org/3.4/haar.png)
 
 * Histogram of Oriented Gradients (HOG)  
-![hog](https://cdn-images-1.medium.com/max/800/1*6xgev0r-qn4oR88FrW6fiA.png)
+<img src='https://cdn-images-1.medium.com/max/800/1*6xgev0r-qn4oR88FrW6fiA.png' height='400'>
 
 * Facial Landmark Detection  
-<img src='https://www.pyimagesearch.com/wp-content/uploads/2017/04/facial_landmarks_68markup-768x619.jpg' width='250'>
-<img src='https://www.pyimagesearch.com/wp-content/uploads/2017/04/facial_landmarks_dlib_example.jpg' width= '250'>
-
+<p>
+<img src='https://www.pyimagesearch.com/wp-content/uploads/2017/04/facial_landmarks_68markup-768x619.jpg' width='250' align='left'>
+<img src='https://www.pyimagesearch.com/wp-content/uploads/2017/04/facial_landmarks_dlib_example.jpg' width= '250' align='right'>
+</p>
 * Deep Learning
 
 ### Face Recognition
@@ -58,7 +61,6 @@ Recognition – multi-class classification
 etc...
 
 ### Face Detection & Recognition Now
-
 #### OpenCV
 Standing for Open Source Computer Vision, written originally in C/C++ but now with binding for Python.
 
