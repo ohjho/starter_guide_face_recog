@@ -33,7 +33,8 @@ Given an image, tell whether there is any human face, if there is, where is it(o
 * Histogram of Oriented Gradients (HOG)
 ![hog](https://cdn-images-1.medium.com/max/800/1*6xgev0r-qn4oR88FrW6fiA.png)
 
-* Facial Landmark Detection
+* Facial Landmark Detection  
+<img src='https://www.pyimagesearch.com/wp-content/uploads/2017/04/facial_landmarks_68markup-768x619.jpg' height='100'>
 ![dlib-facial-landmark-detector](https://www.pyimagesearch.com/wp-content/uploads/2017/04/facial_landmarks_68markup-768x619.jpg | width=100)
 ![dlib-facial-landmark-detector-example](https://www.pyimagesearch.com/wp-content/uploads/2017/04/facial_landmarks_dlib_example.jpg = 250x)
 
