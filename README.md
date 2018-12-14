@@ -35,16 +35,18 @@ Given an image, tell whether there is any human face, if there is, where is it (
 * Viola-Jones Method (aka Haar Cascades)  
 This is a over-simplified description of the Haar Cascades. 
 Please refer to https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_objdetect/py_face_detection/py_face_detection.html#haar-cascade-detection-in-opencv for a details. 
+
 ![harr-cascades](https://docs.opencv.org/3.4/haar.png)
+
 In short, the Haar Cascades 
 The following figures shows how Harr Cascades identify features from a human face.
-<img src='http://eyalarubas.com/images/face-detection-and-recognition/features-eyebrows.jpg' height='300'>
-<img src='http://eyalarubas.com/images/face-detection-and-recognition/features-nose.jpg' height='300'>
-<img src='http://eyalarubas.com/images/face-detection-and-recognition/haar-eyes.jpg' height='300'>
-<img src='http://eyalarubas.com/images/face-detection-and-recognition/features-mouth.jpg' height='300'>
-<img src='http://eyalarubas.com/images/face-detection-and-recognition/features-chin.jpg' height='300'>
+<img src='http://eyalarubas.com/images/face-detection-and-recognition/features-eyebrows.jpg' height='100'>
+<img src='http://eyalarubas.com/images/face-detection-and-recognition/features-nose.jpg' height='100'>
+<img src='http://eyalarubas.com/images/face-detection-and-recognition/haar-eyes.jpg' height='100'>
+<img src='http://eyalarubas.com/images/face-detection-and-recognition/features-mouth.jpg' height='100'>
+<img src='http://eyalarubas.com/images/face-detection-and-recognition/features-chin.jpg' height='100'>
 Each of these figures represents a general feature of a human face. Combining all the features together we receive a  minecraft-like resemble of a human face.
-<img src='http://eyalarubas.com/images/face-detection-and-recognition/haar-all.jpg' height = '300'>
+<img src='http://eyalarubas.com/images/face-detection-and-recognition/haar-all.jpg' height = '100'>
 
 In order for this process be quick, it is designed it in such a way that we first check the coarse features which represent the coarse structure of a face; and only if these features match, we continue to the next iteration and use finer features. 
 In each such iteration we can quickly reject areas of the picture which do not match a face, and keep checking those which we are not sure about. 
