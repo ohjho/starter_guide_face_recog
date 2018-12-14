@@ -34,7 +34,7 @@ Given an image, tell whether there is any human face, if there is, where is it (
 ![harr-cascades](https://docs.opencv.org/3.4/haar.png)
 
 * Histogram of Oriented Gradients (HOG)  
-<img src='https://cdn-images-1.medium.com/max/800/1*6xgev0r-qn4oR88FrW6fiA.png' height='400'>
+<img src='https://cdn-images-1.medium.com/max/800/1*6xgev0r-qn4oR88FrW6fiA.png' height='300'>
 
 * Facial Landmark Detection  
 <p>
