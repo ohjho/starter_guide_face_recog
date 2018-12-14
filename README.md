@@ -37,8 +37,8 @@ Given an image, tell whether there is any human face, if there is, where is it(o
 
 * Facial Landmark Detection  
 <p>
-<img src='https://www.pyimagesearch.com/wp-content/uploads/2017/04/facial_landmarks_68markup-768x619.jpg' width='250' align='left'>
-<img src='https://www.pyimagesearch.com/wp-content/uploads/2017/04/facial_landmarks_dlib_example.jpg' width= '250' align='right'>
+<img src='https://www.pyimagesearch.com/wp-content/uploads/2017/04/facial_landmarks_68markup-768x619.jpg' width='250'>
+<img src='https://www.pyimagesearch.com/wp-content/uploads/2017/04/facial_landmarks_dlib_example.jpg' width= '250'>
 </p>
 * Deep Learning
 
