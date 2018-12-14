@@ -23,7 +23,40 @@ $ jupyter notebook
 4. Have fun and go build some awesome projects! :surfer:
 ---
 ## :camera: What is Face Detection and Recognition
-### A Brief History
+### Face Detection
+Given an image, tell whether there is any human face, if there is, where is it(or where they are).
+
+#### Face Detection Methods
+* Haar Cascades
+![harr-cascades](https://docs.opencv.org/3.4/haar.png)
+
+* Histogram of Oriented Gradients (HOG)
+![hog](https://cdn-images-1.medium.com/max/800/1*6xgev0r-qn4oR88FrW6fiA.png)
+
+* Facial Landmark Detection
+![dlib-facial-landmark-detector](https://www.pyimagesearch.com/wp-content/uploads/2017/04/facial_landmarks_68markup-768x619.jpg =250x)
+![dlib-facial-landmark-detector-example](https://www.pyimagesearch.com/wp-content/uploads/2017/04/facial_landmarks_dlib_example.jpg = 250x)
+
+* Deep Learning
+
+### Face Recognition
+A set of two task:
+* Face Identification: Given a face image that belongs to a person in a database, tell whose image it is.
+* Face Verification: Given a face image that might not belong to the database, verify whether it is from the person it is claimed to be in the database.  
+
+### Difference between Face Detection and Recognition
+Detection – two-class classification
+* Face vs. Non-face
+Recognition – multi-class classification
+* One person vs. all the others
+
+### Face Recognition Applications
+* Facial Authentication
+* Customer Service
+* Retail, Marketing
+* Security, Criminal Identification
+etc...
+
 ### Face Detection & Recognition Now
 
 #### OpenCV
