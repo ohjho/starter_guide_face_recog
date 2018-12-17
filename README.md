@@ -13,7 +13,7 @@ $ cd start_guide_img_recog
 ```
 $ pip install -r _text_files/requirements.txt
 ```
-and just check and resolve any packages dependency issues if any show up under `pip check`. It should say `No broken requirements found.`
+and just check and resolve any packages dependency issues if they show up under `pip check`. It should say `No broken requirements found.`
 
 3. Start Jupyter notebook
 ```
@@ -26,19 +26,21 @@ $ jupyter notebook
 ### A Brief History
 [Placeholder: write something on history to give some context to how awesome it is to have these recognition tools right in python]
 
+### Face Detection vs Face Recognition
+**Detection** is a two-class classification: Face vs. Non-face  
+
+In contrast, **Recognition** is a multi-class classification: One-face vs. All Faces
+
 ### Face Detection
 Detecting a face is generally easier than recognising a face of a specific person. The structure of a human face usually contains noses, eyes, foreheads, chins and mouths. All of these compose the general structure of a face.
 
 Given an image, tell whether there is any human face, if there is, where is it (or where they are).
 
 #### Face Detection Methods
-* Viola-Jones Method (aka Haar Cascades)  
-This is a over-simplified description of the Haar Cascades. 
-Please refer to https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_objdetect/py_face_detection/py_face_detection.html#haar-cascade-detection-in-opencv for a details. 
+##### Viola-Jones Method (aka Haar Cascades)  
+![harr-cascades](https://docs.opencv.org/3.4/haar.png)  
 
-![harr-cascades](https://docs.opencv.org/3.4/haar.png)
-
-In short, the Haar Cascades 
+In short, the Haar Cascades
 The following figures shows how Harr Cascades identify features from a human face.
 
 <img src='http://eyalarubas.com/images/face-detection-and-recognition/features-eyebrows.jpg' height='100'>
@@ -51,36 +53,32 @@ Each of these figures represents a general feature of a human face. Combining al
 
 <img src='http://eyalarubas.com/images/face-detection-and-recognition/haar-all.jpg' height = '100'>
 
-In order for this process be quick, it is designed it in such a way that we first check the coarse features which represent the coarse structure of a face; and only if these features match, we continue to the next iteration and use finer features. 
-In each such iteration we can quickly reject areas of the picture which do not match a face, and keep checking those which we are not sure about. 
+In order for this process be quick, it is designed it in such a way that we first check the coarse features which represent the coarse structure of a face; and only if these features match, we continue to the next iteration and use finer features.
+In each such iteration we can quickly reject areas of the picture which do not match a face, and keep checking those which we are not sure about.
 In every iteration we increase the certainty that the checked area is indeed a face, until finally we stop and make our determination.
 
-The cascading process accelerates the face detection process by quickly eliminates images that does not contain a face rather than focusing in determining if the image does contain a face. 
+The cascading process accelerates the face detection process by quickly eliminates images that does not contain a face rather than focusing in determining if the image does contain a face.
 
 
-* Histogram of Oriented Gradients (HOG)  
+For details, please refer to [this documentation](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_objdetect/py_face_detection/py_face_detection.html#haar-cascade-detection-in-opencv).
+
+##### Histogram of Oriented Gradients (HOG)  
 <img src='https://cdn-images-1.medium.com/max/800/1*6xgev0r-qn4oR88FrW6fiA.png' height='300'>
 
-* Facial Landmark Detection  
+##### Facial Landmark Detection  
 <p>
 <img src='https://www.pyimagesearch.com/wp-content/uploads/2017/04/facial_landmarks_68markup-768x619.jpg' width='250' />
 <img src='https://www.pyimagesearch.com/wp-content/uploads/2017/04/facial_landmarks_dlib_example.jpg' width= '250' />
 </p>  
 
-* Deep Learning
+##### Deep Learning
 
 ### Face Recognition
-A set of two task:
-* Face Identification: Given a face image that belongs to a person in a database, tell whose image it is.
-* Face Verification: Given a face image that might not belong to the database, verify whether it is from the person it is claimed to be in the database.  
+Face Recognition is a two step process:
+1. Face Identification: Given a face image that belongs to a person in a database, tell whose image it is.
+2. Face Verification: Given a face image that might not belong to the database, verify whether it is from the person it is claimed to be in the database.  
 
-### Difference between Face Detection and Recognition
-Detection – two-class classification
-* Face vs. Non-face  
-Recognition – multi-class classification
-* One person vs. all the others
-
-### Face Recognition Applications
+#### Applications
 * Facial Authentication
 * Customer Service
 * Retail, Marketing
