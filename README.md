@@ -43,11 +43,13 @@ Given an image, tell whether there is any human face, if there is, where is it (
 In short, the Haar Cascades
 The following figures shows how Harr Cascades identify features from a human face.
 
+<p>
 <img src='http://eyalarubas.com/images/face-detection-and-recognition/features-eyebrows.jpg' height='100'>
 <img src='http://eyalarubas.com/images/face-detection-and-recognition/features-nose.jpg' height='100'>
 <img src='http://eyalarubas.com/images/face-detection-and-recognition/haar-eyes.jpg' height='100'>
 <img src='http://eyalarubas.com/images/face-detection-and-recognition/features-mouth.jpg' height='100'>
 <img src='http://eyalarubas.com/images/face-detection-and-recognition/features-chin.jpg' height='100'>
+</p>
 
 Each of these figures represents a general feature of a human face. Combining all the features together we receive a  minecraft-like resemble of a human face.
 
