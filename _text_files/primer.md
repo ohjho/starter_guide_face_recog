@@ -108,10 +108,10 @@ A single **trained neural network** that can take the whole image and output all
 
 YOLO algorithm lay a grid over the image and each cell in the grid does the following:
 1. predict some number of bounding boxes and it's confidence level of having an object inside  
-<img src='https://cdn-images-1.medium.com/max/800/1*4Y1PaY3ZgxKt5w84_0pNxw.jpeg' width='250' />
+<img src='https://cdn-images-1.medium.com/max/800/1*4Y1PaY3ZgxKt5w84_0pNxw.jpeg' width='350' />
 
 2. predict a class probability  
-<img src='https://sandipanweb.files.wordpress.com/2018/03/proba_map.png?w=676' width='250' />
+<img src='https://sandipanweb.files.wordpress.com/2018/03/proba_map.png?w=676' width='350' />
 
 Then with a given threshold, YOLO only keeps the bounding boxes with the highest probability  
 ![yolo combining 1 and 2](https://i.stack.imgur.com/zlhvo.png)
