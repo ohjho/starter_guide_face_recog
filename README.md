@@ -54,6 +54,8 @@ Here are some **templates** to get yous started:
 * [dlib](http://dlib.net/)
 * [OpenCV](https://docs.opencv.org/3.4.3/de/d27/tutorial_table_of_content_face.html)
 
+---
+
 ## :pray: Credits
 This project's main contributors are [@youonf](https://github.com/youonf) and [@agsl0905](https://github.com/agsl0905).
 
