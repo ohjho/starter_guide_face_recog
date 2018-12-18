@@ -120,30 +120,3 @@ The parameterization fixes the output size for detection. So we have a output te
 
 ### DLIB
 [Placeholder: write a high-level summary of what DLIB is]
-
----
-
-## Installing the Required Packages
-### openCV
-`requirements.txt` will install `opencv-contrib-python` for you. For more details, read this [installation guide](https://www.pyimagesearch.com/2018/09/19/pip-install-opencv/).
-### face_detection/dlib
-[`dlib`][url_dlib] is written in **C++**, so in order to use it we need to clone the [`dlib` repo][url_dlib] and compile it in python per this [instruction][url_dlib_installnote](make sure you satisfy the [pre-requisit](#dlib-pre-requisit) ):
-```
-$ cd to/your/git/dir
-$ git clone https://github.com/davisking/dlib.git
-$ cd dlib
-$ mkdir build; cd build; cmake ..; cmake --build .
-$ cd ..
-$ python3 setup.py install
-```
-#### dlib Pre-requisit
-* you need to have **Python3** installed. To check, type `which python3` in your command-line
-* you need to have [**Homebrew**](https://brew.sh/). To install:
-```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-* you need to have `cmake`. To install: `brew install cmake`
-### yolo3
-
-[url_dlib]: https://github.com/davisking/dlib/
-[url_dlib_installnote]: https://gist.github.com/ageitgey/629d75c1baac34dfa5ca2a1928a7aeaf

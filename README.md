@@ -26,7 +26,7 @@ $ workon NameOfYourEnv
 ```
 and just check and resolve any packages dependency issues if they show up under `pip check`. It should say `No broken requirements found.`  
 
-Something still not working? Check out our more in depth [installation notes]()
+Something still not working? Check out our more in depth [installation notes](#installing-the-required-packages)
 
 3. Start Jupyter notebook
 ```
@@ -49,6 +49,7 @@ Here are some **templates** to get yous started:
 * [Face Detection for Beginners](https://towardsdatascience.com/face-detection-for-beginners-e58e8f21aad9)
 * [Methods for Face Detection and Face Recognition - A Review](https://medium.com/beesightsoft/methods-for-face-detection-and-face-recognition-a-review-57e73af1d67)
 * [Building a Face Detection Model from Video using Deep Learning](https://www.analyticsvidhya.com/blog/2018/12/introduction-face-detection-video-deep-learning-python/)
+* [A Github Repo](https://github.com/llSourcell/YOLO_Object_Detection/blob/master/YOLO%20Object%20Detection.ipynb) on the recent development of face detection algorithm
 #### Open CV
 * [Face Recognition with Python, in Under 25 Lines of Code](https://realpython.com/face-recognition-with-python/)
 * [Using OpenCV to play "Where's Waldo?"](https://machinelearningmastery.com/using-opencv-python-and-template-matching-to-play-wheres-waldo/)
@@ -65,6 +66,30 @@ Here are some **templates** to get yous started:
 ### Documentations
 * [dlib](http://dlib.net/)
 * [OpenCV](https://docs.opencv.org/3.4.3/de/d27/tutorial_table_of_content_face.html)
+
+---
+
+## Installing the Required Packages
+### openCV
+`requirements.txt` will install `opencv-contrib-python` for you. For more details, read this [installation guide](https://www.pyimagesearch.com/2018/09/19/pip-install-opencv/).
+### face_detection/dlib
+[`dlib`][url_dlib] is written in **C++**, so in order to use it we need to clone the [`dlib` repo][url_dlib] and compile it in python per this [instruction][url_dlib_installnote](make sure you satisfy the [pre-requisit](#dlib-pre-requisit) ):
+```
+$ cd to/your/git/dir
+$ git clone https://github.com/davisking/dlib.git
+$ cd dlib
+$ mkdir build; cd build; cmake ..; cmake --build .
+$ cd ..
+$ python3 setup.py install
+```
+#### dlib Pre-requisit
+* you need to have **Python3** installed. To check, type `which python3` in your command-line
+* you need to have [**Homebrew**](https://brew.sh/). To install:
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+* you need to have `cmake`. To install: `brew install cmake`
+### yolo3
 
 ---
 
