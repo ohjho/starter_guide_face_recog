@@ -14,9 +14,19 @@ $ cd start_guide_img_recog
 ```
 2. install the requirements. We **highly recommend** doing this inside a [virtualenv](https://virtualenvwrapper.readthedocs.io/en/latest/):
 ```
-$ pip install -r _text_files/requirements.txt
+#---------------- optional ------------------
+$ mkvirtualenv --python=`which python3` NameOfYourEnv
+$ workon NameOfYourEnv
+(NameOfYourEnv) $ pip freeze > uninstall.txt
+(NameOfYourEnv) $ pip uninstall -r uninstall.txt -y
+(NameOfYourEnv) $ rm uninstall.txt
+#--------------------------------------------
+
+(NameOfYourEnv) $ pip install -r _text_files/requirements.txt
 ```
-and just check and resolve any packages dependency issues if they show up under `pip check`. It should say `No broken requirements found.`
+and just check and resolve any packages dependency issues if they show up under `pip check`. It should say `No broken requirements found.`  
+
+Something still not working? Check out our more in depth [installation notes]()
 
 3. Start Jupyter notebook
 ```
