@@ -93,7 +93,7 @@ Face Recognition is a two step process:
 ---
 
 ## Face Detection & Recognition Now
-This section discuss the most commonly used algorithm today.
+This section discuss the most commonly used algorithms today.
 ### OpenCV
 Standing for Open Source Computer Vision, written originally in C/C++ but now with binding for Python.
 

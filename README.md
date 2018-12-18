@@ -57,7 +57,7 @@ Here are some **templates** to get yous started:
 #### YOLO
 * A [TED talk](https://www.youtube.com/watch?v=Cgxsv1riJhI) by one of the developer of YOLO
 * A [video](https://www.youtube.com/watch?v=NM6lrxy0bxs) about how YOLO works
-* [YOLO: Real-time Object Detection](https://pjreddie.com/darknet/yolo/)
+* The Darknet's guide to [YOLO: Real-time Object Detection](https://pjreddie.com/darknet/yolo/)
 
 ### Libraries
 * [dlib][url_dlib]
