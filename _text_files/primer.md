@@ -15,6 +15,8 @@
 * 2017: **iPhone X** uses facial recognition for device security and payment
 * 2017: FaceFirst launched **Watchlist as a service** to help retail clients prevent shoplifting and violent crime.
 
+---
+
 ## Face Detection vs Face Recognition
 **Detection** is a two-class classification: Face vs. Non-face  
 
@@ -55,7 +57,7 @@ For details, please refer to [this documentation](https://opencv-python-tutroals
 </p>  
 
 #### Deep Learning, 2012
-Using pre-trained Convolutional Neural Networks (CNN) like **VGG** or **Inception** classifier and running it on a small sliding window across the given image. At each step we get a prediction of what's within the window. And at a given threshold, we only keep the classified objects with high predictive values.
+Using pre-trained Convolutional Neural Networks (CNN) like **VGG** or **Inception** classifier and running it on a small **sliding window** across the given image. At each step we get a prediction of what's within the window. And at a given threshold, we only keep the classified objects with high predictive values.
 
 ![CNN Sliding Windown](https://cv-tricks.com/wp-content/uploads/2016/12/3.png.pagespeed.ce.nvAm4I5IA0.png)
 
@@ -88,6 +90,8 @@ Face Recognition is a two step process:
 * Retail (e.g. Loss Prevention)
 * and more!
 
+---
+
 ## Face Detection & Recognition Now
 This section discuss the most commonly used algorithm today.
 ### OpenCV
@@ -96,10 +100,28 @@ Standing for Open Source Computer Vision, written originally in C/C++ but now wi
 The algorithm breaks the task of identifying a face into thousands of **classification** tasks. For a face, that's about 6000 classifier so for computational speed OpenCV uses a **cascade** model. The **cascade** model breaks the task of thousands of **classifications** into multiple stages. Doing rough and quick test at the earlier stages and only drilling down into the details, at later stages, if an image made it pass the early stages.
 
 In practice, the **cascades** are a bunch of XML files pre-trained to identify specific features from faces to eyes to hands to even non-human things.
-### YOLO
-[Placeholder: write a high-level summary of what YOLO is]
+
+### YOLO (v1: 2015, v2: 2016, v3: 2018)
+A advance deep learning model for facial detection. It's main advantage is on speed because the algorithm actually only look at the image once. Therefore, it's name: **You Only Look Once**.
+
+A single **trained neural network** that can take the whole image and output all the predictions in a single pass.
+
+YOLO algorithm lay a grid over the image and each cell in the grid does the following:
+1. predict some number of bounding boxes and it's confidence level of having an object inside
+![yolo cell predict bounding box](https://cdn-images-1.medium.com/max/800/1*4Y1PaY3ZgxKt5w84_0pNxw.jpeg)  
+2. predict a class probability
+![yolo cell predict classes](https://sandipanweb.files.wordpress.com/2018/03/proba_map.png?w=676)
+
+Then with a given threshold, YOLO only keeps the bounding boxes with the highest probability
+![yolo combining 1 and 2](https://i.stack.imgur.com/zlhvo.png)
+
+The parameterization fixes the output size for detection. So we have a output tensor which we try to predict in one pass through our neural network.
+![yolo output tensor prediction](https://www.renom.jp/notebooks/tutorial/image_processing/yolo/yolo010.png)  
+
 ### DLIB
 [Placeholder: write a high-level summary of what DLIB is]
+
+---
 
 ## Installing the Required Packages
 ### openCV

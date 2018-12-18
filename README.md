@@ -54,6 +54,8 @@ Here are some **templates** to get yous started:
 * [Using OpenCV to play "Where's Waldo?"](https://machinelearningmastery.com/using-opencv-python-and-template-matching-to-play-wheres-waldo/)
 * [OpenCV Face Recognition](https://www.pyimagesearch.com/2018/09/24/opencv-face-recognition/)
 #### YOLO
+* A [TED talk](https://www.youtube.com/watch?v=Cgxsv1riJhI) by one of the developer of YOLO
+* A [video](https://www.youtube.com/watch?v=NM6lrxy0bxs) about how YOLO works
 * [YOLO: Real-time Object Detection](https://pjreddie.com/darknet/yolo/)
 
 ### Libraries
