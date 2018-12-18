@@ -2,11 +2,10 @@
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
----
-## Intro
 
+## Intro
 To understand what is Facial Detection and/or recognition, you can read our [primer](_text_files/primer.md) or checkout a [the slides]() we made for our data science bootcamp presentation.
----
+
 ## How to Use this repo
 1. Clone this repo:
 ```
@@ -25,7 +24,7 @@ $ cd _templates
 $ jupyter notebook
 ```
 4. Have fun and go build some awesome projects! :surfer:
----
+
 ## :clipboard: Boilerplates
 Want to start working on an Image Recognition project?!
 
@@ -33,7 +32,6 @@ Here are some **templates** to get yous started:
 * [OpenCV](_templates/opencv_facedetection.ipynb)
 * [YOLO3]()
 
----
 ## References
 
 ### Tutorials
@@ -56,12 +54,11 @@ Here are some **templates** to get yous started:
 * [dlib](http://dlib.net/)
 * [OpenCV](https://docs.opencv.org/3.4.3/de/d27/tutorial_table_of_content_face.html)
 
----
 ## :pray: Credits
 This project's main contributors are [@youonf](https://github.com/youonf) and [@agsl0905](https://github.com/agsl0905).
 
 Special Thanks to [@samoshaughnessy](https://github.com/samoshaughnessy) for showing us how to use Git.  
----
+
 ## :black_nib: License
 The content of this project is licensed under the [MIT license](_text_files/LICENSE)
 
