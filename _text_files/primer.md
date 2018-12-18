@@ -73,7 +73,7 @@ In practice, the **cascades** are a bunch of XML files pre-trained to identify s
 ### openCV
 `requirements.txt` will install `opencv-contrib-python` for you. For more details, read this [installation guide](https://www.pyimagesearch.com/2018/09/19/pip-install-opencv/).
 ### face_detection/dlib
-[`dlib`][url_dlib] is written in **C++**, so in order to use it we need to clone the [`dlib` repo][url_dlib] and compile it in python per this [instruction][url_dlib_installnote](make sure you satisfy the [pre-requisit](https://github.com/ohjho/starter_guide_face_recog#dlib-pre-requisit) ):
+[`dlib`][url_dlib] is written in **C++**, so in order to use it we need to clone the [`dlib` repo][url_dlib] and compile it in python per this [instruction][url_dlib_installnote](make sure you satisfy the [pre-requisit](#dlib-pre-requisit) ):
 ```
 $ cd to/your/git/dir
 $ git clone https://github.com/davisking/dlib.git
