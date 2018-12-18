@@ -1,6 +1,20 @@
 # :camera: What is Face Detection and Recognition
 ## A Brief History
-[Placeholder: write something on history to give some context to how awesome it is to have these recognition tools right in python]
+* 1960s: Woodrow Wilson Bledsoe invented the **RAND tablet**
+* 1970s: Goldstein, Harmon, and Lesk proposed **21 Facial Markers**
+* 1988: Sirovich and Kirby applied linear algebra to facial recognition creating **Eigenfaces**
+* 1991: Turk and Pentland applied Eigenface within images to do the **first automatic face recognition**
+* 1990s: **FERET program** created by the US government to encourage commercial face recognition technology to develop. The project create a dataset of 2000+ facial images
+* 2002: law enforcement tested facial recognition at **Supe bowl XXXV** with limited success.
+* 2000s: **FRVT program** formed by the US government to evaluate commercial facial recognition systems, mainly to help law enforcement agencies when selecting which technology to use.
+* 2009: the Pinellas County Sherriff's Office created a **forensic database** which by 2011 aided in many arrest by deputies outfitted with cameras.
+* 2010: **Facebook** launched the feature to suggest photo tag
+* 2011: Panama, with the backing of US's Homeland Security, launched **FaceFirst**, the first major installation of face recognition in an airport. The system was successful in helping catch various drug traffickers.
+* 2011: facial recognition technology was used to confirm the identity of **Osama Bin Laden** in the successful raid by US Navy Seals.
+* 2014: US law enforcement agencies adopt mobile face recognition at scale.
+* 2017: **iPhone X** uses facial recognition for device security and payment
+* 2017: FaceFirst launched **Watchlist as a service** to help retail clients prevent shoplifting and violent crime.
+
 
 ## Face Detection vs Face Recognition
 **Detection** is a two-class classification: Face vs. Non-face  
@@ -8,9 +22,7 @@
 In contrast, **Recognition** is a multi-class classification: One-face vs. All Faces
 
 ## Face Detection
-Detecting a face is generally easier than recognising a face of a specific person. The structure of a human face usually contains noses, eyes, foreheads, chins and mouths. All of these compose the general structure of a face.
-
-Given an image, tell whether there is any human face, if there is, where is it (or where they are).
+Detecting a face is generally easier than recognising the face of a specific person. The structure of a human face usually contains noses, eyes, foreheads, chins and mouths. All of these compose the general structure of a face.
 
 ### Face Detection Methods
 #### Viola-Jones Method (aka Haar Cascades)  
@@ -51,11 +63,12 @@ Face Recognition is a two step process:
 2. Face Verification: Given a face image that might not belong to the database, verify whether it is from the person it is claimed to be in the database.  
 
 ### Applications
-* Facial Authentication
+* Facial Authentication (e.g. mobile phone lock)
+* Law enforcement
+* Airport security
 * Customer Service
-* Retail, Marketing
-* Security, Criminal Identification  
-etc...
+* Retail-Marketing
+* and more!
 
 ## Face Detection & Recognition Now
 ### OpenCV
