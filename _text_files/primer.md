@@ -90,3 +90,6 @@ $ python3 setup.py install
 ```
 * you need to have `cmake`. To install: `brew install cmake`
 ### yolo3
+
+[url_dlib]: https://github.com/davisking/dlib/
+[url_dlib_installnote]: https://gist.github.com/ageitgey/629d75c1baac34dfa5ca2a1928a7aeaf
