@@ -1,5 +1,5 @@
 # :camera: What is Face Detection and Recognition
-## A Brief History
+## A Brief History [(ref)](https://www.facefirst.com/blog/brief-history-of-face-recognition-software/)
 * 1960s: Woodrow Wilson Bledsoe invented the **RAND tablet**
 * 1970s: Goldstein, Harmon, and Lesk proposed **21 Facial Markers**
 * 1988: Sirovich and Kirby applied linear algebra to facial recognition creating **Eigenfaces**
@@ -15,7 +15,6 @@
 * 2017: **iPhone X** uses facial recognition for device security and payment
 * 2017: FaceFirst launched **Watchlist as a service** to help retail clients prevent shoplifting and violent crime.
 
-
 ## Face Detection vs Face Recognition
 **Detection** is a two-class classification: Face vs. Non-face  
 
@@ -25,7 +24,7 @@ In contrast, **Recognition** is a multi-class classification: One-face vs. All F
 Detecting a face is generally easier than recognising the face of a specific person. The structure of a human face usually contains noses, eyes, foreheads, chins and mouths. All of these compose the general structure of a face.
 
 ### Face Detection Methods
-#### Viola-Jones Method (aka Haar Cascades)  
+#### Viola-Jones Method (aka Haar Cascades), 2001  
 ![harr-cascades](https://docs.opencv.org/3.4/haar.png)  
 
 The following figures shows how Harr Cascades identify features from a human face.  
@@ -46,7 +45,7 @@ The cascading process accelerates the face detection process by quickly eliminat
 
 For details, please refer to [this documentation](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_objdetect/py_face_detection/py_face_detection.html#haar-cascade-detection-in-opencv).
 
-#### Histogram of Oriented Gradients (HOG)  
+#### Histogram of Oriented Gradients (HOG), 2005  
 <img src='https://cdn-images-1.medium.com/max/800/1*6xgev0r-qn4oR88FrW6fiA.png' height='300'>
 
 #### Facial Landmark Detection  
@@ -55,7 +54,26 @@ For details, please refer to [this documentation](https://opencv-python-tutroals
 <img src='https://www.pyimagesearch.com/wp-content/uploads/2017/04/facial_landmarks_dlib_example.jpg' width= '250' />
 </p>  
 
-#### Deep Learning
+#### Deep Learning, 2012
+Using pre-trained Convolutional Neural Networks (CNN) like **VGG** or **Inception** classifier and running it on a small sliding window across the given image. At each step we get a prediction of what's within the window. And at a given threshold, we only keep the classified objects with high predictive values.
+
+![CNN Sliding Windown](https://cv-tricks.com/wp-content/uploads/2016/12/3.png.pagespeed.ce.nvAm4I5IA0.png)
+
+#### R-CNN
+An improvement on basic CNN, it split the task of image detection into **region proposal** and **classification**. The **region proposal** uses **selective search**.
+
+**Selective search** [(ref)](https://www.learnopencv.com/selective-search-for-object-detection-cpp-python/) starts by over-segmenting the image based on intensity of the pixels using a segmentation method.
+<p>
+<img src='https://www.learnopencv.com/wp-content/uploads/2017/09/breakfast.jpg' width='250' />
+<img src='https://www.learnopencv.com/wp-content/uploads/2017/09/breakfast_fnh.jpg' width= '250' />
+</p>  
+
+Then it...
+1. Add bounding boxes corresponding to the segmented parts to the list of regional proposals
+2. Group adjacent segments based on similarity (color, texture, size, and shape)
+3. repeat step 1 with bigger bounding boxes for bigger segments
+
+![selective search](https://www.learnopencv.com/wp-content/uploads/2017/09/hierarchical-segmentation-1.jpg)
 
 ## Face Recognition
 Face Recognition is a two step process:
@@ -66,11 +84,12 @@ Face Recognition is a two step process:
 * Facial Authentication (e.g. mobile phone lock)
 * Law enforcement
 * Airport security
-* Customer Service
-* Retail-Marketing
+* Customer Service (e.g. Smile to Pay)
+* Retail (e.g. Loss Prevention)
 * and more!
 
 ## Face Detection & Recognition Now
+This section discuss the most commonly used algorithm today.
 ### OpenCV
 Standing for Open Source Computer Vision, written originally in C/C++ but now with binding for Python.
 
