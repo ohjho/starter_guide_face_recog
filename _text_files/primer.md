@@ -46,6 +46,23 @@ The cascading process accelerates the face detection process by quickly eliminat
 For details, please refer to [this documentation](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_objdetect/py_face_detection/py_face_detection.html#haar-cascade-detection-in-opencv).
 
 #### Histogram of Oriented Gradients (HOG), 2005  
+Histogram of Oriented Gradients is a **feature descriptor** used in image processing, mainly for **object detection**. It was invented by Navneet Dalal and Bill Triggs and was originally used for **detecting pedestrian**. 
+
+The goal of HOG is to create a feature descriptor, that is a representation of an image or an image patch that simplifies the image by extracting useful information and throwing away extraneous information. We can later compare two descriptors to see if they depict the same object. It usually takes the form of a **vector**. 
+
+**The advantage of analyzing gradients over pixels**  
+If we analyze pixels directly, the **pixel values** for dim images and bright images of the same person will be totally different. But by only considering the direction that brightness changes(**gradients**), both bright and dim images will end up with the same exact representation.
+
+To find faces in an image, photo is first converted to **black and white** as colour data is not needed. For every single pixel, we want to look at the pixels that directly surrounding it.  
+<img src = 'https://cdn-images-1.medium.com/max/800/1*RZS05e_5XXQdofdRx1GvPA.gif' height='300'>
+
+Then we compare the darkness of current pixels with those directly surrounding it. We will then draw an arrow showing in which direction the image is **getting darker**.  
+<img src = 'https://cdn-images-1.medium.com/max/800/1*WF54tQnH1Hgpoqk-Vtf9Lg.gif' height='200'>
+
+By repeat that process for every single pixel in the image, we replace every pixel by an arrow. These arrows are called **gradients** and they show the flow from light to dark across the entire image.  
+<img src='https://cdn-images-1.medium.com/max/800/1*oTdaElx_M-_z9c_iAwwqcw.gif' height='200'>
+
+The image is splitted into small squares of 16x16 pixels. In each square, we’ll count up how many gradients point in each major direction and the square is replaced by the arrow directions that are the strongest. The original image is converted into simple representation that captures **basic structure** of a face in a simple way. Detecting faces means find the part of our image that looks the most similar to a known HOG pattern that was extracted from a bunch of other training faces:  
 <img src='https://cdn-images-1.medium.com/max/800/1*6xgev0r-qn4oR88FrW6fiA.png' height='300'>
 
 #### Facial Landmark Detection  
@@ -99,7 +116,11 @@ In practice, the **cascades** are a bunch of XML files pre-trained to identify s
 ### YOLO
 [Placeholder: write a high-level summary of what YOLO is]
 ### DLIB
-[Placeholder: write a high-level summary of what DLIB is]
+DLib is a C++ library/toolkit that contains machine learning algorithms, including computer vision, however, you can use a number of its tools from python applications.
+
+Dlib is commonly used for **face detection** and **facial landmark detection**. The face detection works by computing **HOG features** and classifiying them with a **linear SVM**, while facial landmark detection uses **random forests**. Popular face recognition libraries such as [face_recognition](https://github.com/ageitgey/face_recognition) and [openface](https://github.com/cmusatyalab/openface) use dlib underneath.
+
+Dlib also has deep neural network (**DNN**) support to do face recognition. [Example](http://blog.dlib.net/2017/02/high-quality-face-recognition-with-deep.html) shows that the pretrained dlib_face_recognition_resnet_model_v1 model has a 99.38% accuracy on the [Labeled Faces in the Wild](http://vis-www.cs.umass.edu/lfw/).
 
 ## Installing the Required Packages
 ### openCV
