@@ -4,6 +4,7 @@
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 ---
 ## Intro
+
 To understand what is Facial Detection and/or recognition, you can read our [primer](_text_files/primer.md) or checkout a [the slides]() we made for our data science bootcamp presentation.
 ---
 ## How to Use this repo
@@ -59,7 +60,7 @@ Here are some **templates** to get yous started:
 ## :pray: Credits
 This project's main contributors are [@youonf](https://github.com/youonf) and [@agsl0905](https://github.com/agsl0905).
 
-Special Thanks to [@samoshaughnessy](https://github.com/samoshaughnessy) for showing us how to use Git.
+Special Thanks to [@samoshaughnessy](https://github.com/samoshaughnessy) for showing us how to use Git.  
 ---
 ## :black_nib: License
 The content of this project is licensed under the [MIT license](_text_files/LICENSE)
