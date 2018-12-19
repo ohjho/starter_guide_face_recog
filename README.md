@@ -115,13 +115,14 @@ In this guide, we will install the **Darkflow flavor of YOLOv2**. Again, we reco
 [`pip install .`](https://askubuntu.com/questions/1067372/what-does-pip-install-dot-mean) basically install the package definitions from the current location i.e. darkflow.
 
 ##### Downloading Pre-trained Weights
-Import the weights from [Darknet](https://pjreddie.com/darknet/yolo/) into the weights [_templates/weights][_templates/weights] directory.
+Import the weights from [Darknet](https://pjreddie.com/darknet/yolo/) into the weights [_templates/weights](_templates/weights) directory.
 ```
 wget https://pjreddie.com/media/files/yolov3.weights
 mv yolov3.weights starter_guide_img_recog/_templates/weights/yolov3.weights
 ```
 
-Alternatively, you can download the weights from the [Darkflow's author Google Drive](https://drive.google.com/drive/folders/0B1tW_VtY7onidEwyQ2FtQVplWEU) manually into [_templates/weights][_templates/weights].
+Alternatively, you can download the weights from the [Darkflow's author Google Drive](https://drive.google.com/drive/folders/0B1tW_VtY7onidEwyQ2FtQVplWEU) manually into [_templates/weights](_templates/weights).
+
 ---
 
 ## :pray: Credits
