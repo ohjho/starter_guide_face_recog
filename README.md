@@ -2,6 +2,7 @@
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+![tested-on-osx](https://img.shields.io/badege/Tested%20on-OSX-lightgrey.svg)
 
 ## Intro
 To understand what is Facial Detection and/or recognition, you can read our [primer](_text_files/primer.md) or checkout a [the slides]() we made for our data science bootcamp presentation.
@@ -12,7 +13,7 @@ To understand what is Facial Detection and/or recognition, you can read our [pri
 $ git clone https://github.com/ohjho/starter_guide_img_recog.git
 $ cd start_guide_img_recog
 ```
-2. install the requirements. We **highly recommend** doing this inside a [virtualenv](https://virtualenvwrapper.readthedocs.io/en/latest/):
+2. install the requirements. We **highly recommend** doing this inside a [virtualenv][url_virtualenv] and avoid [dependency hell](https://medium.com/knerd/the-nine-circles-of-python-dependency-hell-481d53e3e025).  
 ```
 #---------------- optional ------------------
 $ mkvirtualenv --python=`which python3` NameOfYourEnv
@@ -22,11 +23,13 @@ $ workon NameOfYourEnv
 (NameOfYourEnv) $ rm uninstall.txt
 #--------------------------------------------
 
-(NameOfYourEnv) $ pip install -r _text_files/requirements.txt
+(NameOfYourEnv) $ pip install -r requirements.txt
 ```
 and just check and resolve any packages dependency issues if they show up under `pip check`. It should say `No broken requirements found.`  
 
-Something still not working? Check out our more in depth [installation notes](#installing-the-required-packages)
+You are not done yet :exclamation:  
+
+You will need to following the [installation notes](#installing-the-required-packages) depending on which algorithm you wish to use.
 
 3. Start Jupyter notebook
 ```
@@ -43,7 +46,6 @@ Here are some **templates** to get yous started:
 * [YOLO3]()
 
 ## References
-
 ### Tutorials
 * An Intro [video by YoutTube star Siraj Raval](https://www.youtube.com/watch?v=4eIBisqx9_g&amp=&t=1116s)
 * [Face Detection for Beginners](https://towardsdatascience.com/face-detection-for-beginners-e58e8f21aad9)
@@ -57,15 +59,20 @@ Here are some **templates** to get yous started:
 #### YOLO
 * A [TED talk](https://www.youtube.com/watch?v=Cgxsv1riJhI) by one of the developer of YOLO
 * A [video](https://www.youtube.com/watch?v=NM6lrxy0bxs) about how YOLO works
-* The Darknet's guide to [YOLO: Real-time Object Detection](https://pjreddie.com/darknet/yolo/)
+* [YOLO: Implementations and how to use them](https://medium.com/@monocasero/object-detection-with-yolo-implementations-and-how-to-use-them-5da928356035)
+* [YOLOv2 object detection using Darkflow](https://towardsdatascience.com/yolov2-object-detection-using-darkflow-83db6aa5cf5f)
+* [This repo](https://github.com/fountainhead-gq/YOLO_Collection) has implementation of YOLO in several flavours
 
 ### Libraries
+* [OpenCV](https://opencv.org/)
 * [dlib][url_dlib]
 * [face_recognition][url_facerecog]
+* [YOLOv2 using Darkflow][url_darkflow]
 
 ### Documentations
+* [OpenCV-Python](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_tutorials.html)
 * [dlib](http://dlib.net/)
-* [OpenCV](https://docs.opencv.org/3.4.3/de/d27/tutorial_table_of_content_face.html)
+* The Darknet's guide to [YOLO](https://pjreddie.com/darknet/yolo/)
 
 ---
 
@@ -75,12 +82,12 @@ Here are some **templates** to get yous started:
 ### face_detection/dlib
 [`dlib`][url_dlib] is written in **C++**, so in order to use it we need to clone the [`dlib` repo][url_dlib] and compile it in python per this [instruction][url_dlib_installnote](make sure you satisfy the [pre-requisit](#dlib-pre-requisit) ):
 ```
-$ cd to/your/git/dir
-$ git clone https://github.com/davisking/dlib.git
-$ cd dlib
-$ mkdir build; cd build; cmake ..; cmake --build .
-$ cd ..
-$ python3 setup.py install
+(NameOfYourEnv) $ cd to/your/git/dir
+(NameOfYourEnv) $ git clone https://github.com/davisking/dlib.git
+(NameOfYourEnv) $ cd dlib
+(NameOfYourEnv) $ mkdir build; cd build; cmake ..; cmake --build .
+(NameOfYourEnv) $ cd ..
+(NameOfYourEnv) $ python3 setup.py install
 ```
 #### dlib Pre-requisit
 * you need to have **Python3** installed. To check, type `which python3` in your command-line
@@ -89,8 +96,32 @@ $ python3 setup.py install
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 * you need to have `cmake`. To install: `brew install cmake`
-### yolo3
+### YOLO
+There are currently three main implementations of YOLO:
+1. **Darknet**: The 'offical' implementation written in C
+2. **AlexeyAB/ Darknet**:  a fork of Darknet to support Windows and Linux
+3. **Darkflow**: a port of Darknet over to TensorFlow.
+   _Note_: the CPU-only Darkflow even runs faster than Darknet with the main drawback being the current Darkflow is not updated to YOLO3
+#### Installing YOLOv2 (Darkflow)
+In this guide, we will install the **Darkflow flavor of YOLOv2**. Again, we recommend the use of [virtualenv][url_virtualenv]:   
+```
+(NameOfYourEnv) $ cd to/your/git/dir
+(NameOfYourEnv) $ git clone https://github.com/thtrieu/darkflow.git
+(NameOfYourEnv) $ cd darkflow
+(NameOfYourEnv) $ python setup.py build_ext --inplace
+(NameOfYourEnv) $ pip install .
+```
 
+[`pip install .`](https://askubuntu.com/questions/1067372/what-does-pip-install-dot-mean) basically install the package definitions from the current location i.e. darkflow.
+
+##### Downloading Pre-trained Weights
+Import the weights from [Darknet](https://pjreddie.com/darknet/yolo/) into the weights [_templates/weights][_templates/weights] directory.
+```
+wget https://pjreddie.com/media/files/yolov3.weights
+mv yolov3.weights starter_guide_img_recog/_templates/weights/yolov3.weights
+```
+
+Alternatively, you can download the weights from the [Darkflow's author Google Drive](https://drive.google.com/drive/folders/0B1tW_VtY7onidEwyQ2FtQVplWEU) manually into [_templates/weights][_templates/weights].
 ---
 
 ## :pray: Credits
@@ -104,3 +135,5 @@ The content of this project is licensed under the [MIT license](_text_files/LICE
 [url_dlib]: https://github.com/davisking/dlib/
 [url_dlib_installnote]: https://gist.github.com/ageitgey/629d75c1baac34dfa5ca2a1928a7aeaf
 [url_facerecog]: https://github.com/ageitgey/face_recognition
+[url_darkflow]: https://github.com/thtrieu/darkflow
+[url_virtualenv]: https://virtualenvwrapper.readthedocs.io/en/latest/
