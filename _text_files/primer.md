@@ -74,7 +74,8 @@ The approach proposed to use **68** specific points (called **landmarks**) to ma
 <p>
 <img src='https://www.pyimagesearch.com/wp-content/uploads/2017/04/facial_landmarks_68markup-768x619.jpg' width='200' />
 <img src='https://www.pyimagesearch.com/wp-content/uploads/2017/04/facial_landmarks_dlib_example.jpg' width= '200' />
-</p>  
+</p>
+
 After we know where the face features are, we can simply rotate, scale and shear the image so that the eyes and mouths are **centered** as best as possible. Hence, now no matter how the face is turned, we are able to transform the face features in the roughly same position in an image.  
 <img src='https://cdn-images-1.medium.com/max/800/1*igEzGcFn-tjZb94j15tCNA.png' width='200'>
 
