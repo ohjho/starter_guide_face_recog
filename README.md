@@ -27,9 +27,7 @@ $ workon NameOfYourEnv
 ```
 and just check and resolve any packages dependency issues if they show up under `pip check`. It should say `No broken requirements found.`  
 
-You are not done yet :exclamation:  
-
-You will need to following the [installation notes](#installing-the-required-packages) depending on which algorithm you wish to use.
+You are not done yet :exclamation: If you are going to use the **dlib** or **yolo** templates in this guide, you will need to follow the [installation notes](#installing-the-required-packages).
 
 3. Start Jupyter notebook
 ```
