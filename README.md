@@ -5,7 +5,7 @@
 ![tested-on-osx](https://img.shields.io/badege/Tested%20on-OSX-lightgrey.svg)
 
 ## Intro
-To understand what is Facial Detection and/or recognition, you can read our [primer](_text_files/primer.md) or checkout a [the slides]() we made for our data science bootcamp presentation.
+To understand what is Facial Detection and/or recognition, you can read our [**primer**](_text_files/primer.md) or checkout a the [**slides**](https://gitpitch.com/ohjho/starter_guide_img_recog/master?p=_text_files) we made for our data science bootcamp presentation.
 
 ## How to Use this repo
 1. Clone this repo:
@@ -41,7 +41,7 @@ Want to start working on an Image Recognition project?!
 
 Here are some **templates** to get yous started:
 * [OpenCV](_templates/opencv_facedetection.ipynb)
-* [YOLO3]()
+* [YOLO3](_templates/yolo_v2.ipynb)
 
 ## References
 ### Tutorials
