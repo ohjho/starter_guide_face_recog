@@ -48,7 +48,7 @@ The cascading process accelerates the face detection process by quickly eliminat
 For details, please refer to [this documentation](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_objdetect/py_face_detection/py_face_detection.html#haar-cascade-detection-in-opencv).
 
 #### Histogram of Oriented Gradients (HOG), 2005  
-Histogram of Oriented Gradients is a **feature descriptor** used in image processing, mainly for **object detection**. It was invented by Navneet Dalal and Bill Triggs and was originally used for **detecting pedestrian**. 
+Histogram of Oriented Gradients is a **feature descriptor** used in image processing, mainly for **object detection**. It was invented by [Navneet Dalal and Bill Triggs](https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf) and was originally used for **detecting pedestrian**. 
 
 The goal of HOG is to create a feature descriptor, that is a representation of an image or an image patch that simplifies the image by extracting useful information and throwing away extraneous information. We can later compare two descriptors to see if they depict the same object. It usually takes the form of a **vector**. 
 
@@ -56,7 +56,7 @@ The goal of HOG is to create a feature descriptor, that is a representation of a
 If we analyze pixels directly, the **pixel values** for dim images and bright images of the same person will be totally different. But by only considering the direction that brightness changes(**gradients**), both bright and dim images will end up with the same exact representation.
 
 To find faces in an image, photo is first converted to **black and white** as colour data is not needed. For every single pixel, we want to look at the pixels that directly surrounding it.  
-<img src = 'https://cdn-images-1.medium.com/max/800/1*RZS05e_5XXQdofdRx1GvPA.gif' height='300'>
+<img src = 'https://cdn-images-1.medium.com/max/800/1*RZS05e_5XXQdofdRx1GvPA.gif' height='200'>
 
 Then we compare the darkness of current pixels with those directly surrounding it. We will then draw an arrow showing in which direction the image is **getting darker**.  
 <img src = 'https://cdn-images-1.medium.com/max/800/1*WF54tQnH1Hgpoqk-Vtf9Lg.gif' height='200'>
@@ -67,11 +67,18 @@ By repeat that process for every single pixel in the image, we replace every pix
 The image is splitted into small squares of 16x16 pixels. In each square, we’ll count up how many gradients point in each major direction and the square is replaced by the arrow directions that are the strongest. The original image is converted into simple representation that captures **basic structure** of a face in a simple way. Detecting faces means find the part of our image that looks the most similar to a known HOG pattern that was extracted from a bunch of other training faces:  
 <img src='https://cdn-images-1.medium.com/max/800/1*6xgev0r-qn4oR88FrW6fiA.png' height='300'>
 
-#### Facial Landmark Detection  
+#### Facial Landmark Detection, 2014
+After we can isolate the faces in an image, we will need to handle the problem that **faces turned sideways** as they look totally different to a computer. Facial Landmark Detection was introduced for the task. There are lots of ways to do face landmark estimation but we are going to use the approach invented by [Vahid Kazemi and Josephine Sullivan](http://www.csc.kth.se/~vahidk/papers/KazemiCVPR14.pdf).
+
+The approach proposed to use **68** specific points (called **landmarks**) to map with the face features. Then a model is built by machine learning (Regression Trees) to find these 68 specific points on any face.  
 <p>
-<img src='https://www.pyimagesearch.com/wp-content/uploads/2017/04/facial_landmarks_68markup-768x619.jpg' width='250' />
-<img src='https://www.pyimagesearch.com/wp-content/uploads/2017/04/facial_landmarks_dlib_example.jpg' width= '250' />
+<img src='https://www.pyimagesearch.com/wp-content/uploads/2017/04/facial_landmarks_68markup-768x619.jpg' width='200' />
+<img src='https://www.pyimagesearch.com/wp-content/uploads/2017/04/facial_landmarks_dlib_example.jpg' width= '200' />
 </p>  
+After we know where the face features are, we can simply rotate, scale and shear the image so that the eyes and mouths are **centered** as best as possible. Hence, now no matter how the face is turned, we are able to transform the face features in the roughly same position in an image.  
+<img src='https://cdn-images-1.medium.com/max/800/1*igEzGcFn-tjZb94j15tCNA.png' width='200'>
+
+This enable us to compare and proceed next step much easier, including face recongition, face morphing and replacement, virtual makeover, etc. You can find more detail from article [here](https://www.learnopencv.com/facial-landmark-detection/).
 
 #### Deep Learning, 2012
 Using pre-trained Convolutional Neural Networks (CNN) like **VGG** or **Inception** classifier and running it on a small **sliding window** across the given image. At each step we get a prediction of what's within the window. And at a given threshold, we only keep the classified objects with high predictive values.
