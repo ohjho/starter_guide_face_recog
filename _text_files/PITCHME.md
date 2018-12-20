@@ -83,17 +83,24 @@ Say something about face recognition
 ![An image to explain DLIB]()
 +++
 ### YOLO (v1: 2015, v2: 2016, v3: 2018)
+@snap[midpoint]
 ![pic of grid predict boxes](https://camo.githubusercontent.com/fe90ad70fac9bdc955b83d2c02ea7a131bbb9fe7/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f312a345931506159335a67784b74357738345f30704e78772e6a706567)
+@snapend
 +++
 ### YOLO
+@snap[midpoint]
 ![pic of grid predict classes](https://camo.githubusercontent.com/9d03c472f9125137829bcd59b26894c1020dc392/68747470733a2f2f73616e646970616e7765622e66696c65732e776f726470726573732e636f6d2f323031382f30332f70726f62615f6d61702e706e673f773d363736)
+@snapend
 +++
 ### YOLO
+@snap[midpoint]
 ![pic of box + class](https://camo.githubusercontent.com/03122da4a67ccc0ec7902d248895f09cc96e2158/68747470733a2f2f692e737461636b2e696d6775722e636f6d2f7a6c68766f2e706e67)
+@snapend
 +++
 ### YOLO
+@snap[midpoint]
 ![pic of tensor](https://camo.githubusercontent.com/274fd1443201e847aa67c7c2e01366fa83ceb362/68747470733a2f2f7777772e72656e6f6d2e6a702f6e6f7465626f6f6b732f7475746f7269616c2f696d6167655f70726f63657373696e672f796f6c6f2f796f6c6f3031302e706e67)
-
+@snapend
 ---?image=https://source.unsplash.com/SBdmQcW8qag/
 ### A Gift!
 #### [A Starter Guide to Face Detection & Recognition in Python](https://github.com/ohjho/starter_guide_face_recog)
