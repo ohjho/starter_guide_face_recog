@@ -91,8 +91,11 @@
 @snap[north-east]
 #### Facial Landmark Detection, 2014
 @snapend
-![picture for facial landmark]()
-
+![facial landmarks](https://www.pyimagesearch.com/wp-content/uploads/2017/04/facial_landmarks_68markup-768x619.jpg)
++++
+#### Facial Landmark Detection, 2014
+@snapend
+![facial landmarks transformation](https://cdn-images-1.medium.com/max/800/1*igEzGcFn-tjZb94j15tCNA.png)
 +++
 @snap[north-west]
 #### Deep Learning, 2012
