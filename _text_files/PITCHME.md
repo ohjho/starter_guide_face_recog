@@ -1,7 +1,7 @@
----?image=https://source.unsplash.com/ptA_7ODacAk/ &opacity=40
+---?image=https://source.unsplash.com/ptA_7ODacAk/&opacity=70
 ### A Gentle Introduction to Facial Detention and Recognition
 +++?image=https://source.unsplash.com/PR9fXnVzfzw/
-#### Overview
+### Overview
 @ul
 * The Story
 * Methods
@@ -42,15 +42,13 @@
 #### Facial Landmark Detection, 2014
 @snapend
 ![picture for facial landmark]()
-+++
+
++++?image=https://camo.githubusercontent.com/6f50f57e9837d60fb4a6c21a46b397c87b21da13/68747470733a2f2f63762d747269636b732e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031362f31322f332e706e672e7061676573706565642e63652e6e76416d3449354941302e706e67&size=50%
 @snap[north-east]
 #### Deep Learning, 2012
 ##### CNN, Sliding Window
 @snapend
 
-@div[center-75]
-![picture of sliding window CNN](https://camo.githubusercontent.com/6f50f57e9837d60fb4a6c21a46b397c87b21da13/68747470733a2f2f63762d747269636b732e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031362f31322f332e706e672e7061676573706565642e63652e6e76416d3449354941302e706e67)
-@divend
 +++
 @snap[north-east]
 #### Deep Learning, 2012
