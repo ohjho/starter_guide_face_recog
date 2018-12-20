@@ -47,6 +47,7 @@ Here are some **templates** to get yous started:
 
 ## References
 ### Tutorials
+* [History of Facial Recongition](https://www.facefirst.com/blog/brief-history-of-face-recognition-software/)
 * An Intro [video by YoutTube star Siraj Raval](https://www.youtube.com/watch?v=4eIBisqx9_g&amp=&t=1116s)
 * [Face Detection for Beginners](https://towardsdatascience.com/face-detection-for-beginners-e58e8f21aad9)
 * [Methods for Face Detection and Face Recognition - A Review](https://medium.com/beesightsoft/methods-for-face-detection-and-face-recognition-a-review-57e73af1d67)

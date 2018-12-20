@@ -1,5 +1,5 @@
 # :camera: What is Face Detection and Recognition
-## A Brief History [(ref)](https://www.facefirst.com/blog/brief-history-of-face-recognition-software/)
+## A Brief History
 * 1960s: Woodrow Wilson Bledsoe invented the **RAND tablet**
 * 1970s: Goldstein, Harmon, and Lesk proposed **21 Facial Markers**
 * 1988: Sirovich and Kirby applied linear algebra to facial recognition creating **Eigenfaces**
@@ -90,7 +90,7 @@ Using pre-trained Convolutional Neural Networks (CNN) like **VGG** or **Inceptio
 #### R-CNN
 An improvement on basic CNN, it split the task of image detection into **region proposal** and **classification**. The **region proposal** uses **selective search**.
 
-**Selective search** [(ref)](https://www.learnopencv.com/selective-search-for-object-detection-cpp-python/) starts by over-segmenting the image based on intensity of the pixels using a segmentation method.
+[**Selective search**](https://www.learnopencv.com/selective-search-for-object-detection-cpp-python/) starts by over-segmenting the image based on intensity of the pixels using a segmentation method.
 <p>
 <img src='https://www.learnopencv.com/wp-content/uploads/2017/09/breakfast.jpg' width='250' />
 <img src='https://www.learnopencv.com/wp-content/uploads/2017/09/breakfast_fnh.jpg' width= '250' />
