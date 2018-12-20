@@ -25,6 +25,34 @@
 @snap[north-east]
 #### 1970s: 21 Facial Markers
 @snapend
++++
+@snap[north-east]
+1988: Eigenfaces
+@snapend
++++
+@snap[north-east]
+1991: Turk and Pentland applied Eigenface within images
+@snapend
++++
+@snap[north-east]
+2002: Supe bowl XXXV
+@snapend
++++
+@snap[north-east]
+2010: Facebook
+@snapend
++++
+@snap[north-east]
+2011: Panama
+@snapend
++++
+@snap[north-east]
+2011: Osama Bin Laden
+@snapend
++++
+@snap[north-east]
+2017: iPhone X
+@snapend
 ---?image=https://source.unsplash.com/FRQUz7W1SvI/
 @snap[north]
 ### Methods
