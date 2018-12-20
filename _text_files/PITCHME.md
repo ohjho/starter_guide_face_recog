@@ -9,13 +9,13 @@
 * A gift!
 @ulend
 ---?image=https://source.unsplash.com/9pw4TKvT3po/
-@title[The Story]
+### The Story
 +++
 
 +++
 
----?image=https://source.unsplash.com/95YRwf6CNw8/
-@title[Methods]
+---?image=https://source.unsplash.com/95YRwf6CNw8/&size=auto 90%
+### Methods
 +++
 ### Face Detection vs Face Recognition
 ![An awesome image of face detection vs recognition]()
@@ -48,8 +48,8 @@
 ### Face Recognition
 Say something about face recognition
 
----?image=https://source.unsplash.com/iVGevPcaJzk/
-@title[Current Landscape]
+---?image=https://source.unsplash.com/9pw4TKvT3po/
+### Current Landscape
 +++
 ### OpenCV
 ![An image to explain OpenCV]()
@@ -70,5 +70,5 @@ Say something about face recognition
 ![pic of tensor](https://camo.githubusercontent.com/274fd1443201e847aa67c7c2e01366fa83ceb362/68747470733a2f2f7777772e72656e6f6d2e6a702f6e6f7465626f6f6b732f7475746f7269616c2f696d6167655f70726f63657373696e672f796f6c6f2f796f6c6f3031302e706e67)
 
 ---?image=https://source.unsplash.com/SBdmQcW8qag/
-@title[A Gift!]
+### A Gift!
 #### [A Starter Guide to Face Detection & Recognition in Python](https://github.com/ohjho/starter_guide_face_recog)
