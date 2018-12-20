@@ -40,8 +40,8 @@ $ jupyter notebook
 Want to start working on an Image Recognition project?!
 
 Here are some **templates** to get yous started:
-* [OpenCV](_templates/opencv_facedetection.ipynb) ![badge complete](https://img.shields.io/badge/Status-Completed-Green.svg)
-* [dlib: HOG Face Detector](_templates/dlib_HOGfacedetector.ipynb) ![badge complete](https://img.shields.io/badge/Status-Completed-Green.svg)
+* ![badge complete](https://img.shields.io/badge/Status-Completed-Green.svg)   [OpenCV](_templates/opencv_facedetection.ipynb)
+* ![badge complete](https://img.shields.io/badge/Status-Completed-Green.svg)  [dlib: HOG Face Detector](_templates/dlib_HOGfacedetector.ipynb) 
 * [dlib: Facial Landmarks Detector](_templates/dlib_faciallandmarksdetector.ipynb) ![badge complete](https://img.shields.io/badge/Status-Completed-Green.svg)
 * [YOLO2](_templates/yolo_v2.ipynb) ![badge work in progress](https://img.shields.io/badge/Status-Work%20In%20Progress-Orange.svg)
 
