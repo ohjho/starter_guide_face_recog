@@ -1,9 +1,9 @@
 ---?image=https://source.unsplash.com/ptA_7ODacAk/
-@snap[north]
-### A Gentle Introduction to Facial Detention and Recognition
+@snap[north-east]
+### @color[black](A Gentle Introduction to Facial Detention and Recognition)
 @snapend
 +++?image=https://source.unsplash.com/PR9fXnVzfzw/
-@snap[east]
+@snap[west]
 ### @color[white](Overview)
 @ul
 * The Story
