@@ -17,7 +17,10 @@
 ---?image=https://source.unsplash.com/Tjbk79TARiE/
 ### Methods
 +++
+@snap[north-east]
 ### Face Detection vs Face Recognition
+@snapend
+
 ![An awesome image of face detection vs recognition]()
 +++
 ### Face Detection
