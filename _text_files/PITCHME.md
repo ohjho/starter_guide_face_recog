@@ -54,12 +54,12 @@
 @snapend
 ![picture for facial landmark]()
 
-+++?image=https://camo.githubusercontent.com/6f50f57e9837d60fb4a6c21a46b397c87b21da13/68747470733a2f2f63762d747269636b732e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031362f31322f332e706e672e7061676573706565642e63652e6e76416d3449354941302e706e67&size=40%&position=bottom
++++
 @snap[north-east]
 #### Deep Learning, 2012
 ##### CNN, Sliding Window
 @snapend
-
+![picture of sliding window](_text_files/pitch_assets/slidingwindow.jpg)
 +++
 @snap[north-east]
 #### Deep Learning, 2012
@@ -104,7 +104,7 @@ Say something about face recognition
 ### YOLO
 @snapend
 @snap[midpoint]
-![pic of grid predict classes](https://camo.githubusercontent.com/9d03c472f9125137829bcd59b26894c1020dc392/68747470733a2f2f73616e646970616e7765622e66696c65732e776f726470726573732e636f6d2f323031382f30332f70726f62615f6d61702e706e673f773d363736)
+![pic of grid predict classes](https://camo.githubusercontent.com.rsz.io/9d03c472f9125137829bcd59b26894c1020dc392/68747470733a2f2f73616e646970616e7765622e66696c65732e776f726470726573732e636f6d2f323031382f30332f70726f62615f6d61702e706e673f773d363736?width=50)
 @snapend
 +++
 @snap[north-east]
