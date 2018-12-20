@@ -42,6 +42,7 @@ Each of these figures represents a general feature of a human face. Combining al
 <img src='http://eyalarubas.com/images/face-detection-and-recognition/haar-all.jpg' height = '100'>  
 
 In order for this process be quick, it is designed it in such a way that we first check the coarse features which represent the coarse structure of a face; and only if these features match, we continue to the next iteration and use finer features. In each such iteration we can quickly reject areas of the picture which do not match a face, and keep checking those which we are not sure about. In every iteration we increase the certainty that the checked area is indeed a face, until finally we stop and make our determination.  
+<img src='https://www.bogotobogo.com/python/OpenCV_Python/images/FaceDetection/stages.png' height = '300'>
 
 The cascading process accelerates the face detection process by quickly eliminates images that does not contain a face rather than focusing in determining if the image does contain a face.  
 
