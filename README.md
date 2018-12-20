@@ -2,7 +2,7 @@
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
-![tested-on-osx](https://img.shields.io/badege/Tested%20on-OSX-lightgrey.svg)
+![tested-on-osx](https://img.shields.io/badge/Tested%20on-OSX-lightgrey.svg)
 
 ## Intro
 To understand what is Facial Detection and/or recognition, you can read our [**primer**](_text_files/primer.md) or checkout a the [**slides**](https://gitpitch.com/ohjho/starter_guide_img_recog/master?p=_text_files) we made for our data science bootcamp presentation.
@@ -40,9 +40,10 @@ $ jupyter notebook
 Want to start working on an Image Recognition project?!
 
 Here are some **templates** to get yous started:
-* [OpenCV](_templates/opencv_facedetection.ipynb)
-* [YOLO2](_templates/yolo_v2.ipynb)
-* [dlib_HOG face detector](_templates/dlib_HOGfacedetector.ipynb), [dlib_facial landmarks detector](_templates/dlib_faciallandmarksdetector.ipynb)
+* [OpenCV](_templates/opencv_facedetection.ipynb) ![badge complete](https://img.shields.io/badge/Status-Completed-Green.svg)
+* [dlib: HOG Face Detector](_templates/dlib_HOGfacedetector.ipynb) ![badge complete](https://img.shields.io/badge/Status-Completed-Green.svg)
+* [dlib: Facial Landmarks Detector](_templates/dlib_faciallandmarksdetector.ipynb) ![badge complete](https://img.shields.io/badge/Status-Completed-Green.svg)
+* [YOLO2](_templates/yolo_v2.ipynb) ![badge work in progress](https://img.shields.io/badge/Status-Work%20In%20Progress-Orange.svg)
 
 ## References
 ### Tutorials
@@ -79,14 +80,14 @@ Here are some **templates** to get yous started:
 ### openCV
 `requirements.txt` will install `opencv-contrib-python` for you. For more details, read this [installation guide](https://www.pyimagesearch.com/2018/09/19/pip-install-opencv/).
 ### face_detection/dlib
-[`dlib`][url_dlib] is written in **C++**, so in order to use it we need to clone the [`dlib` repo][url_dlib] and compile it in python per this [instruction][url_dlib_installnote](make sure you satisfy the [pre-requisit](#dlib-pre-requisit) ):
+[`dlib`][url_dlib] is written in **C++**, so in order to use it we need to clone the [`dlib` repo][url_dlib] and compile it in python per this [instruction][url_dlib_installnote](make sure you satisfy the [pre-requisit](#dlib-pre-requisit) ). We **highly recommend** doing this inside a [**virtualenv**][url_virtualenv]:
 ```
-(NameOfYourEnv) $ cd to/your/git/dir
-(NameOfYourEnv) $ git clone https://github.com/davisking/dlib.git
-(NameOfYourEnv) $ cd dlib
-(NameOfYourEnv) $ mkdir build; cd build; cmake ..; cmake --build .
-(NameOfYourEnv) $ cd ..
-(NameOfYourEnv) $ python3 setup.py install
+$ cd to/your/git/dir
+$ git clone https://github.com/davisking/dlib.git
+$ cd dlib
+$ mkdir build; cd build; cmake ..; cmake --build .
+$ cd ..
+$ python3 setup.py install
 ```
 #### dlib Pre-requisit
 * you need to have **Python3** installed. To check, type `which python3` in your command-line
@@ -102,13 +103,13 @@ There are currently three main implementations of YOLO:
 3. **Darkflow**: a port of Darknet over to TensorFlow.
    _Note_: the CPU-only Darkflow even runs faster than Darknet with the main drawback being the current Darkflow is not updated to YOLO3
 #### Installing YOLOv2 (Darkflow)
-In this guide, we will install the **Darkflow flavor of YOLOv2**. Again, we recommend the use of [virtualenv][url_virtualenv]:   
+In this guide, we will install the **Darkflow flavor of YOLOv2**. Again, we recommend the use of [**virtualenv**][url_virtualenv]:   
 ```
-(NameOfYourEnv) $ cd to/your/git/dir
-(NameOfYourEnv) $ git clone https://github.com/thtrieu/darkflow.git
-(NameOfYourEnv) $ cd darkflow
-(NameOfYourEnv) $ python setup.py build_ext --inplace
-(NameOfYourEnv) $ pip install .
+$ cd to/your/git/dir
+$ git clone https://github.com/thtrieu/darkflow.git
+$ cd darkflow
+$ python setup.py build_ext --inplace
+$ pip install .
 ```
 
 [`pip install .`](https://askubuntu.com/questions/1067372/what-does-pip-install-dot-mean) basically install the package definitions from the current location i.e. darkflow.
