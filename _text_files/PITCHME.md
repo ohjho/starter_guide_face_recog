@@ -26,7 +26,9 @@
 #### 1970s: 21 Facial Markers
 @snapend
 ---?image=https://source.unsplash.com/FRQUz7W1SvI/
+@snap[north]
 ### Methods
+@snapend
 +++
 @snap[north-east]
 ### Face Detection vs Face Recognition
@@ -86,7 +88,7 @@
 @snapend
 Say something about face recognition
 
----?image=https://source.unsplash.com/IClZBVw5W5A/
+---?image=https://source.unsplash.com/jG1z5o7NCq4/
 ### Current Landscape
 +++
 ### OpenCV
@@ -126,5 +128,7 @@ Say something about face recognition
 ![pic of tensor](https://camo.githubusercontent.com/274fd1443201e847aa67c7c2e01366fa83ceb362/68747470733a2f2f7777772e72656e6f6d2e6a702f6e6f7465626f6f6b732f7475746f7269616c2f696d6167655f70726f63657373696e672f796f6c6f2f796f6c6f3031302e706e67)
 @snapend
 ---?image=https://source.unsplash.com/SBdmQcW8qag/
+@snap[north]
 ### A Gift!
-#### [A Starter Guide to Face Detection & Recognition in Python](https://github.com/ohjho/starter_guide_face_recog)
+@snapend
+[A Starter Guide to Face Detection & Recognition in Python](https://github.com/ohjho/starter_guide_face_recog)
