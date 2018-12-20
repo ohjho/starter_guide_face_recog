@@ -1,4 +1,4 @@
----?image=https://source.unsplash.com/ptA_7ODacAk/&opacity=40
+---?image=https://source.unsplash.com/ptA_7ODacAk/ &opacity=40
 ### A Gentle Introduction to Facial Detention and Recognition
 +++?image=https://source.unsplash.com/PR9fXnVzfzw/
 #### Overview
