@@ -14,7 +14,7 @@
 
 +++
 
----?image=https://source.unsplash.com/9pw4TKvT3po/
+---?image=https://source.unsplash.com/Tjbk79TARiE/
 ### Methods
 +++
 ### Face Detection vs Face Recognition
@@ -48,7 +48,7 @@
 ### Face Recognition
 Say something about face recognition
 
----?image=https://source.unsplash.com/9pw4TKvT3po/
+---?image=https://source.unsplash.com/IClZBVw5W5A/
 ### Current Landscape
 +++
 ### OpenCV
