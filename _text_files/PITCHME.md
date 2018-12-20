@@ -1,7 +1,7 @@
 ---?image=https://source.unsplash.com/ptA_7ODacAk/
 ### A Gentle Introduction to Facial Detention and Recognition
 +++?image=https://source.unsplash.com/PR9fXnVzfzw/
-@title[Overview]
+#### Overview
 @ul
 * The Story
 * Methods
@@ -14,7 +14,7 @@
 
 +++
 
----?image=https://source.unsplash.com/95YRwf6CNw8/&size=auto 90%
+---?image=https://source.unsplash.com/9pw4TKvT3po/
 ### Methods
 +++
 ### Face Detection vs Face Recognition
