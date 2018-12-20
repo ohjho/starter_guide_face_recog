@@ -23,7 +23,10 @@
 In contrast, **Recognition** is a multi-class classification: One-face vs. All Faces
 
 ## Face Detection
-Detecting a face is generally easier than recognising the face of a specific person. The structure of a human face usually contains noses, eyes, foreheads, chins and mouths. All of these compose the general structure of a face.
+Face detection is merely detecting faces in a picture, video or in real time. It has already implemented to many areas such as auto focusing camera. 
+
+Detecting a face is generally easier than recognising the face of a specific person. All human faces shares some universal properties of the human face such as the eyes region is relatively darker than its neighbour pixels and nose and forehead region is brighter than eye region.
+Therefore face detection algorithm searches general human face features as segments in the whole image.
 
 ### Face Detection Methods
 #### Viola-Jones Method (aka Haar Cascades), 2001  
@@ -38,7 +41,7 @@ The following figures shows how Harr Cascades identify features from a human fac
 <img src='http://eyalarubas.com/images/face-detection-and-recognition/features-chin.jpg' height='100'>
 </p>
 
-Each of these figures represents a general feature of a human face. Combining all the features together we receive a  minecraft-like resemble of a human face.  
+Each of these figures represents a general feature of a human face. Combining all the features together we receive a  Minecraft-like resemble of a human face.  
 <img src='http://eyalarubas.com/images/face-detection-and-recognition/haar-all.jpg' height = '100'>  
 
 In order for this process be quick, it is designed it in such a way that we first check the coarse features which represent the coarse structure of a face; and only if these features match, we continue to the next iteration and use finer features. In each such iteration we can quickly reject areas of the picture which do not match a face, and keep checking those which we are not sure about. In every iteration we increase the certainty that the checked area is indeed a face, until finally we stop and make our determination.  
@@ -104,6 +107,13 @@ Then it...
 ![selective search](https://www.learnopencv.com/wp-content/uploads/2017/09/hierarchical-segmentation-1.jpg)
 
 ## Face Recognition
+
+Face Recognition takes one step further than face detection as it recognise the identity of a person given that the algorithm has been on that particular person's face. 
+
+A single face should be given as input, and the output will be a name, or class name or unknown face. [PCA, LDA]
+One popular recognition algorithm is PCA using eigenfaces.
+<img src='http://eyalarubas.com/images/face-detection-and-recognition/eigenfaces.jpg' width='250' />
+
 Face Recognition is a two step process:
 1. Face Identification: Given a face image that belongs to a person in a database, tell whose image it is.
 2. Face Verification: Given a face image that might not belong to the database, verify whether it is from the person it is claimed to be in the database.  
