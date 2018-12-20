@@ -23,32 +23,48 @@
 
 ![An awesome image of face detection vs recognition]()
 +++
+@snap[north-east]
 ### Face Detection
+@snapend
 ![an awesome face detection image]()
 +++
+@snap[north-east]
 #### Viola-Jones (Haar Cascades) Method, 2001
+@snapend
 ![pictures for haar cascades]()
 +++
+@snap[north-east]
 #### Histogram of Oriented Gradients (HOG), 2005
+@snapend
 ![pictures for HOG]()
 +++
+@snap[north-east]
 #### Facial Landmark Detection, 2014
+@snapend
 ![picture for facial landmark]()
 +++
+@snap[north-east]
 #### Deep Learning, 2012
 ##### CNN, Sliding Window
+@snapend
 ![picture of sliding window CNN](https://camo.githubusercontent.com/6f50f57e9837d60fb4a6c21a46b397c87b21da13/68747470733a2f2f63762d747269636b732e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031362f31322f332e706e672e7061676573706565642e63652e6e76416d3449354941302e706e67)
 +++
+@snap[north-east]
 #### Deep Learning, 2012
 ##### R-CNN
-![picture before segementation](https://camo.githubusercontent.com/41d5328f14cc6b04b6d69e594db6158d59bf8b37/68747470733a2f2f7777772e6c6561726e6f70656e63762e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031372f30392f627265616b666173742e6a7067)
-![picture after segementation](https://camo.githubusercontent.com/79f34d7af94849b6487e8b416a07150a80829b6b/68747470733a2f2f7777772e6c6561726e6f70656e63762e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031372f30392f627265616b666173745f666e682e6a7067)
+@snapend
+![picture before segementation](https://camo.githubusercontent.com/41d5328f14cc6b04b6d69e594db6158d59bf8b37/68747470733a2f2f7777772e6c6561726e6f70656e63762e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031372f30392f627265616b666173742e6a7067 =250x)
+![picture after segementation](https://camo.githubusercontent.com/79f34d7af94849b6487e8b416a07150a80829b6b/68747470733a2f2f7777772e6c6561726e6f70656e63762e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031372f30392f627265616b666173745f666e682e6a7067 =250x)
 +++
+@snap[north-east]
 #### Deep Learning, 2012
 ##### R-CNN
+@snapend
 ![rcnn region proposal](https://camo.githubusercontent.com/2acccab6babe00d58154424a4daabb2e40cd4a10/68747470733a2f2f7777772e6c6561726e6f70656e63762e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031372f30392f68696572617263686963616c2d7365676d656e746174696f6e2d312e6a7067)
 +++
+@snap[north-east]
 ### Face Recognition
+@snapend
 Say something about face recognition
 
 ---?image=https://source.unsplash.com/IClZBVw5W5A/
