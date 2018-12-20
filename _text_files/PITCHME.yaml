@@ -5,11 +5,11 @@
 #layout : center-right
 
 # background
-background-color : Silver
+#background-color : Silver
 
 # Look-and-Feel
 logo : _text_files/pitch_assets/acceleratelogo.png
-#theme : sky
+theme : night
 #vertical-center: false
 #theme-override : assets/css/PITCHME.css
 highlight : ir-black
