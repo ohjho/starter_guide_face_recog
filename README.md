@@ -42,6 +42,7 @@ Want to start working on an Image Recognition project?!
 Here are some **templates** to get yous started:
 * [OpenCV](_templates/opencv_facedetection.ipynb)
 * [YOLO2](_templates/yolo_v2.ipynb)
+* [dlib_HOG face detector](_templates/dlib_HOGfacedetector.ipynb), [dlib_facial landmarks detector](_templates/dlib_faciallandmarksdetector.ipynb)
 
 ## References
 ### Tutorials
