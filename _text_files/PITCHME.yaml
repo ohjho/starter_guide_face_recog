@@ -1,0 +1,22 @@
+#-----------------------------------------
+# REF: https://gitpitch.com/docs/settings/pitchme
+#-----------------------------------------
+# Layout
+layout : center-right
+
+# background
+background-color : gray
+
+# Look-and-Feel
+logo : _text_files/pitch_assets/acceleratelogo.png
+theme : night
+#theme-override : assets/css/PITCHME.css
+highlight : ir-black
+
+# Behavior
+transition : none
+published : true
+
+# Plugins
+charts : true
+mathjax : TeX-AMS_HTML-full
