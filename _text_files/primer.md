@@ -112,6 +112,7 @@ Face Recognition takes one step further than face detection as it recognise the 
 
 A single face should be given as input, and the output will be a name, or class name or unknown face. [PCA, LDA]
 One popular recognition algorithm is PCA using eigenfaces.
+
 <img src='http://eyalarubas.com/images/face-detection-and-recognition/eigenfaces.jpg' width='250' />
 
 Face Recognition is a two step process:
