@@ -80,7 +80,7 @@
 @div[top-50 fragment]
 ![photo to HOG](https://cdn-images-1.medium.com/max/800/1*RZS05e_5XXQdofdRx1GvPA.gif)
 @divend
-@div[right-50 fragment]
+@div[bottom-50 fragment]
 ![photo to HOG](https://cdn-images-1.medium.com/max/800/1*6xgev0r-qn4oR88FrW6fiA.png)
 @divend
 +++
