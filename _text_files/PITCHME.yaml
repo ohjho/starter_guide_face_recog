@@ -5,7 +5,7 @@
 layout : center-right
 
 # background
-background-color : #666666
+background-color : rgb(66,66,66)
 
 # Look-and-Feel
 logo : _text_files/pitch_assets/acceleratelogo.png
