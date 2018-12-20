@@ -55,8 +55,10 @@
 ![picture for facial landmark]()
 
 +++
-@snap[north-east]
+@snap[north-west]
 #### Deep Learning, 2012
+@snapend
+@snap[north-east]
 ##### CNN, Sliding Window
 @snapend
 ![picture of sliding window](_text_files/pitch_assets/slidingwindow.jpg)
