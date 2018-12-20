@@ -86,12 +86,12 @@
 @snap[north-east]
 #### Histogram of Oriented Gradients (HOG), 2005
 @snapend
-![HOG face vs HOG pattern](https://cdn-images-1.medium.com/max/800/1*6xgev0r-qn4oR88FrW6fiA.png)
+<img src='https://cdn-images-1.medium.com/max/800/1*6xgev0r-qn4oR88FrW6fiA.png' height='500'>
 +++
 @snap[north-east]
 #### Facial Landmark Detection, 2014
 @snapend
-<img src='https://www.pyimagesearch.com/wp-content/uploads/2017/04/facial_landmarks_68markup-768x619.jpg' width='300'>
+<img src='https://www.pyimagesearch.com/wp-content/uploads/2017/04/facial_landmarks_68markup-768x619.jpg' width='500'>
 +++
 @snap[north-east]
 #### Facial Landmark Detection, 2014
