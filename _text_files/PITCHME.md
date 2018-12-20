@@ -18,7 +18,7 @@
 @snap[north-east]
 1970s: 21 Facial Markers
 @snapend
----?image=https://source.unsplash.com/Tjbk79TARiE/
+---?image=https://source.unsplash.com/Tjbk79TARiE/&opacity=50
 ### Methods
 +++
 @snap[north-east]
