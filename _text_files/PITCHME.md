@@ -1,7 +1,7 @@
 ---?image=https://source.unsplash.com/ptA_7ODacAk/&opacity=70
 ### A Gentle Introduction to Facial Detention and Recognition
 +++?image=https://source.unsplash.com/PR9fXnVzfzw/
-### Overview
+@color[white](### Overview)
 @ul
 * The Story
 * Methods
