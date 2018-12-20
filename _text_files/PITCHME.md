@@ -11,9 +11,13 @@
 ---?image=https://source.unsplash.com/9pw4TKvT3po/
 ### The Story
 +++
-
+@snap[north-east]
+1960s: RAND Tablet
+@snapend
 +++
-
+@snap[north-east]
+1970s: 21 Facial Markers
+@snapend
 ---?image=https://source.unsplash.com/Tjbk79TARiE/
 ### Methods
 +++
