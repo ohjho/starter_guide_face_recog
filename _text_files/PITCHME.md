@@ -77,12 +77,12 @@
 @snap[north-east]
 #### Histogram of Oriented Gradients (HOG), 2005
 @snapend
-@div[top-50 fragment]
 ![photo to HOG](https://cdn-images-1.medium.com/max/800/1*RZS05e_5XXQdofdRx1GvPA.gif)
-@divend
-@div[bottom-50 fragment]
++++
+@snap[north-east]
+#### Histogram of Oriented Gradients (HOG), 2005
+@snapend
 ![photo to HOG](https://cdn-images-1.medium.com/max/800/1*6xgev0r-qn4oR88FrW6fiA.png)
-@divend
 +++
 @snap[north-east]
 #### Facial Landmark Detection, 2014
