@@ -78,10 +78,10 @@
 #### Histogram of Oriented Gradients (HOG), 2005
 @snapend
 @div[top-50 fragment]
-![photo scan by pixel](https://cdn-images-1.medium.com/max/800/1*RZS05e_5XXQdofdRx1GvPA.gif)
+<img src = 'https://cdn-images-1.medium.com/max/800/1*RZS05e_5XXQdofdRx1GvPA.gif' height='200'>
 @divend
 @div[bottom-50 fragment]
-![photo transform to HOG](https://cdn-images-1.medium.com/max/800/1*oTdaElx_M-_z9c_iAwwqcw.gif)
+<img src='https://cdn-images-1.medium.com/max/800/1*oTdaElx_M-_z9c_iAwwqcw.gif' height='200'>
 +++
 @snap[north-east]
 #### Histogram of Oriented Gradients (HOG), 2005
@@ -91,7 +91,7 @@
 @snap[north-east]
 #### Facial Landmark Detection, 2014
 @snapend
-![facial landmarks](https://www.pyimagesearch.com/wp-content/uploads/2017/04/facial_landmarks_68markup-768x619.jpg&size=auto 60%)
+<img src='https://www.pyimagesearch.com/wp-content/uploads/2017/04/facial_landmarks_68markup-768x619.jpg' width='300'>
 +++
 @snap[north-east]
 #### Facial Landmark Detection, 2014
