@@ -9,7 +9,7 @@
 
 # Look-and-Feel
 logo : _text_files/pitch_assets/acceleratelogo.png
-theme : night
+#theme : night
 #vertical-center: false
 #theme-override : assets/css/PITCHME.css
 highlight : ir-black
