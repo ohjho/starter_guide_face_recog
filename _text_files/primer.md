@@ -49,9 +49,9 @@ The cascading process accelerates the face detection process by quickly eliminat
 For details, please refer to [this documentation](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_objdetect/py_face_detection/py_face_detection.html#haar-cascade-detection-in-opencv).
 
 #### Histogram of Oriented Gradients (HOG), 2005  
-Histogram of Oriented Gradients is a **feature descriptor** used in image processing, mainly for **object detection**. It was invented by [Navneet Dalal and Bill Triggs](https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf) and was originally used for **detecting pedestrian**. 
+Histogram of Oriented Gradients is a **feature descriptor** used in image processing, mainly for **object detection**. It was invented by [Navneet Dalal and Bill Triggs](https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf) and was originally used for **detecting pedestrian**.
 
-The goal of HOG is to create a feature descriptor, that is a representation of an image or an image patch that simplifies the image by extracting useful information and throwing away extraneous information. We can later compare two descriptors to see if they depict the same object. It usually takes the form of a **vector**. 
+The goal of HOG is to create a feature descriptor, that is a representation of an image or an image patch that simplifies the image by extracting useful information and throwing away extraneous information. We can later compare two descriptors to see if they depict the same object. It usually takes the form of a **vector**.
 
 **The advantage of analyzing gradients over pixels**  
 If we analyze pixels directly, the **pixel values** for dim images and bright images of the same person will be totally different. But by only considering the direction that brightness changes(**gradients**), both bright and dim images will end up with the same exact representation.
@@ -151,28 +151,3 @@ DLib is a C++ library/toolkit that contains machine learning algorithms, includi
 Dlib is commonly used for **face detection** and **facial landmark detection**. The face detection works by computing **HOG features** and classifiying them with a **linear SVM**, while facial landmark detection uses **random forests**. Popular face recognition libraries such as [face_recognition](https://github.com/ageitgey/face_recognition) and [openface](https://github.com/cmusatyalab/openface) use dlib underneath.
 
 Dlib also has deep neural network (**DNN**) support to do face recognition. [Example](http://blog.dlib.net/2017/02/high-quality-face-recognition-with-deep.html) shows that the pretrained dlib_face_recognition_resnet_model_v1 model has a 99.38% accuracy on the [Labeled Faces in the Wild](http://vis-www.cs.umass.edu/lfw/).
-
-## Installing the Required Packages
-### openCV
-`requirements.txt` will install `opencv-contrib-python` for you. For more details, read this [installation guide](https://www.pyimagesearch.com/2018/09/19/pip-install-opencv/).
-### face_detection/dlib
-[`dlib`][url_dlib] is written in **C++**, so in order to use it we need to clone the [`dlib` repo][url_dlib] and compile it in python per this [instruction][url_dlib_installnote](make sure you satisfy the [pre-requisit](#dlib-pre-requisit) ):
-```
-$ cd to/your/git/dir
-$ git clone https://github.com/davisking/dlib.git
-$ cd dlib
-$ mkdir build; cd build; cmake ..; cmake --build .
-$ cd ..
-$ python3 setup.py install
-```
-#### dlib Pre-requisit
-* you need to have **Python3** installed. To check, type `which python3` in your command-line
-* you need to have [**Homebrew**](https://brew.sh/). To install:
-```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-* you need to have `cmake`. To install: `brew install cmake`
-### yolo3
-
-[url_dlib]: https://github.com/davisking/dlib/
-[url_dlib_installnote]: https://gist.github.com/ageitgey/629d75c1baac34dfa5ca2a1928a7aeaf
