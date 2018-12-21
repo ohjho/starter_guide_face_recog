@@ -17,7 +17,7 @@ _       __     __                                  __             __
 * The Story
 * Methods
 * Current Landscape
-*   @fa[gift fa-1x]
+* @fa[gift fa-1x]
 @ulend
 @snapend
 
@@ -59,6 +59,7 @@ _       __     __                                  __             __
 @snap[north-east]
 #### 1991: Turk and Pentland applied Eigenface within images
 @snapend
+<img src='https://image.slidesharecdn.com/eigenfaces-140124151754-phpapp01/95/eigenfaces-2-638.jpg?cb=1390576732' height = '450' />
 +++
 @snap[north-east]
 #### 2002: Super bowl XXXV
