@@ -107,6 +107,7 @@ CNN, Sliding Window
 <!-- empty div here -->
 @divend
 @div[bottom-70]
+<br/><br/>
 ![picture of sliding window](_text_files/pitch_assets/slidingwindow.jpg)
 @divend
 +++
