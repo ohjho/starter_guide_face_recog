@@ -41,38 +41,46 @@ _       __     __                                  __             __
 @snap[north-east]
 #### 1960s: RAND Tablet
 @snapend
+<img src='https://wwwassets.rand.org/content/rand/blog/rand-review/2018/09/the-rand-tablet-ipad-predecessor/jcr:content/par/blogpost.aspectcrop.868x455.lm.jpg/x1536275788752.jpg.pagespeed.ic.CPtrA8fIFT.jpg' height='500' />
 +++
 @snap[north-east]
 #### 1970s: 21 Facial Markers
 @snapend
+![pic of 21 facial markers](https://cdn-images-1.medium.com/max/600/0*IuKHrWCDkC8baWsD.png)
 +++
 @snap[north-east]
 #### 1988: Eigenfaces
 @snapend
+![pic of eigenfaces](https://cdn-images-1.medium.com/max/600/0*FmfgrEtBOB6slWiH.jpg)
 +++
 @snap[north-east]
 #### 1991: Turk and Pentland applied Eigenface within images
 @snapend
 +++
 @snap[north-east]
-#### 2002: Supe bowl XXXV
+#### 2002: Super bowl XXXV
 @snapend
+![pic of super bowl xxxv](https://www.tampabay.com/storyimage/HI/20180430/ARTICLE/304309783/AR/0/AR-304309783.jpg&MaxW=1200&Q=66)
 +++
 @snap[north-east]
 #### 2010: Facebook
 @snapend
+![pic of social media face recog](https://cdn-images-1.medium.com/max/600/0*ty_lPs0wP35t1XxH)
 +++
 @snap[north-east]
 #### 2011: Panama
 @snapend
+![pic of pananma airport](http://pty.life/wp-content/uploads/2015/01/tocumen_airport.jpg)
 +++
 @snap[north-east]
 #### 2011: Osama Bin Laden
 @snapend
+![pic of zero dark thirty](https://www.moviequotesandmore.com/wp-content/uploads/zero-dark-thirty-15.jpg)
 +++
 @snap[north-east]
 #### 2017: iPhone X
 @snapend
+![pic of iphone x](https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iOS/ios12-iphone-x-face-id-hero.jpg)
 
 ---?image=https://source.unsplash.com/FRQUz7W1SvI/
 <!-- Method stack
