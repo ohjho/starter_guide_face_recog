@@ -59,6 +59,7 @@ _       __     __                                  __             __
 @snap[north-east]
 #### 1991: Turk and Pentland applied Eigenface within images
 @snapend
+<br />
 <img src='https://image.slidesharecdn.com/eigenfaces-140124151754-phpapp01/95/eigenfaces-2-638.jpg?cb=1390576732' height = '450' />
 +++
 @snap[north-east]
