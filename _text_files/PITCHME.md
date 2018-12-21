@@ -103,7 +103,9 @@
 #### Deep Learning, 2012
 CNN, Sliding Window
 @snapend
+@div[bottom-70]
 ![picture of sliding window](_text_files/pitch_assets/slidingwindow.jpg)
+@divend
 +++
 @snap[north-east]
 #### Deep Learning, 2012
@@ -137,10 +139,8 @@ Say something about face recognition
 ### DLIB
 ![An image to explain DLIB]()
 +++
-@snap[north-west]
-### YOLO
-@snapend
 @snap[north-east]
+### YOLO
 (v1: 2015, v2: 2016, v3: 2018)
 @snapend
 @snap[midpoint]
