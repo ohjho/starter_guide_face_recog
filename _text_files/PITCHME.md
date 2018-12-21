@@ -81,12 +81,13 @@
 <img src = 'https://cdn-images-1.medium.com/max/800/1*RZS05e_5XXQdofdRx1GvPA.gif' height='200'>
 @divend
 @div[bottom-50 fragment]
-<img src='https://cdn-images-1.medium.com/max/800/1*oTdaElx_M-_z9c_iAwwqcw.gif' height='200'>
+<img src='https://camo.githubusercontent.com/1b13edb3d9be904abce434c7019b7139374604dc/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f312a5746353474516e48314867706f716b2d567466394c672e676966' height='200'>
+@divend
 +++
 @snap[north-east]
 #### Histogram of Oriented Gradients (HOG), 2005
 @snapend
-<img src='https://cdn-images-1.medium.com/max/800/1*6xgev0r-qn4oR88FrW6fiA.png' height='500'>
+<img src='https://cdn-images-1.medium.com/max/800/1*6xgev0r-qn4oR88FrW6fiA.png' height='400'>
 +++
 @snap[north-east]
 #### Facial Landmark Detection, 2014
