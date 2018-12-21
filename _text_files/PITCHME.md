@@ -198,13 +198,15 @@ Say something about face recognition
 ### OpenCV
 ![An image to explain OpenCV]()
 +++
+@snap[north-east]
 ### DLIB
+@snapend
 @div[left-50 fragment]
 ![dlib ML library](http://dlib.net/ml_guide.svg)
 @divend
 @div[right-50 fragment]
-<img src='https://camo.githubusercontent.com/0e94fa06912091da23e40cb44ccfdc752643ab0d/68747470733a2f2f6269742e6c792f324c7573613372' height = '200'>
-<img src='https://camo.githubusercontent.com/985af2fc7e6fee960c0a0ba3a947ad95e1893797/68747470733a2f2f7777772e7079696d6167657365617263682e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031372f30342f66616369616c5f6c616e646d61726b735f646c69625f6578616d706c652e6a7067' height = '200'>
+<img src='http://1.bp.blogspot.com/-pPgDErLVJ_k/UvBGZk22ZXI/AAAAAAAAALs/c0mJmAVZnQE/s1600/face_fhog_filters.png' height = '200'>
+<img src='https://i.stack.imgur.com/9bUgR.png' height = '200'>
 @divend
 +++
 @snap[north-east]
