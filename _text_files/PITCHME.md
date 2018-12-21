@@ -41,12 +41,14 @@ _       __     __                                  __             __
 @snap[north-east]
 #### 1960s: RAND Tablet
 @snapend
-<img src='https://wwwassets.rand.org/content/rand/blog/rand-review/2018/09/the-rand-tablet-ipad-predecessor/jcr:content/par/blogpost.aspectcrop.868x455.lm.jpg/x1536275788752.jpg.pagespeed.ic.CPtrA8fIFT.jpg' height='500' />
+<br /><br />
+<img src='https://wwwassets.rand.org/content/rand/blog/rand-review/2018/09/the-rand-tablet-ipad-predecessor/jcr:content/par/blogpost.aspectcrop.868x455.lm.jpg/x1536275788752.jpg.pagespeed.ic.CPtrA8fIFT.jpg' height='450' />
 +++
 @snap[north-east]
 #### 1970s: 21 Facial Markers
 @snapend
-![pic of 21 facial markers](https://cdn-images-1.medium.com/max/600/0*IuKHrWCDkC8baWsD.png)
+<br /><br />
+<img src='https://cdn-images-1.medium.com/max/600/0*IuKHrWCDkC8baWsD.png' height='450' />
 +++
 @snap[north-east]
 #### 1988: Eigenfaces
@@ -60,26 +62,30 @@ _       __     __                                  __             __
 @snap[north-east]
 #### 2002: Super bowl XXXV
 @snapend
-![pic of super bowl xxxv](https://www.tampabay.com/storyimage/HI/20180430/ARTICLE/304309783/AR/0/AR-304309783.jpg&MaxW=1200&Q=66)
+<br /><br />
+<img src='https://www.tampabay.com/storyimage/HI/20180430/ARTICLE/304309783/AR/0/AR-304309783.jpg&MaxW=1200&Q=66' height = '450' />
 +++
 @snap[north-east]
 #### 2010: Facebook
 @snapend
-![pic of social media face recog](https://cdn-images-1.medium.com/max/600/0*ty_lPs0wP35t1XxH)
+<img src='https://cdn-images-1.medium.com/max/600/0*ty_lPs0wP35t1XxH' height='450'/>
 +++
 @snap[north-east]
 #### 2011: Panama
 @snapend
+<br/>
 ![pic of pananma airport](http://pty.life/wp-content/uploads/2015/01/tocumen_airport.jpg)
 +++
 @snap[north-east]
 #### 2011: Osama Bin Laden
 @snapend
-![pic of zero dark thirty](https://www.moviequotesandmore.com/wp-content/uploads/zero-dark-thirty-15.jpg)
+<br/>
+<img src='https://www.moviequotesandmore.com/wp-content/uploads/zero-dark-thirty-15.jpg' height='450' />
 +++
 @snap[north-east]
 #### 2017: iPhone X
 @snapend
+<br />
 ![pic of iphone x](https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iOS/ios12-iphone-x-face-id-hero.jpg)
 
 ---?image=https://source.unsplash.com/FRQUz7W1SvI/
