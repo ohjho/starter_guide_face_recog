@@ -185,7 +185,7 @@ Say something about face recognition
 +++
 @snap[north-east]
 ### YOLO
-(v1: 2015, v2: 2016, v3: 2018)
+@size[1em](v1: 2015, v2: 2016, v3: 2018)
 @snapend
 <br/><br/><br/>
 <img src='https://camo.githubusercontent.com/fe90ad70fac9bdc955b83d2c02ea7a131bbb9fe7/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f312a345931506159335a67784b74357738345f30704e78772e6a706567' height = '450' />
