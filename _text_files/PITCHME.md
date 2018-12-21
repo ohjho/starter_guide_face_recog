@@ -103,6 +103,9 @@
 #### Deep Learning, 2012
 CNN, Sliding Window
 @snapend
+@div[top-30]
+empty div here
+@divend
 @div[bottom-70]
 ![picture of sliding window](_text_files/pitch_assets/slidingwindow.jpg)
 @divend
