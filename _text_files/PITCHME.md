@@ -99,17 +99,15 @@
 @snapend
 ![facial landmarks transformation](https://cdn-images-1.medium.com/max/800/1*igEzGcFn-tjZb94j15tCNA.png)
 +++
-@snap[north-west]
-#### Deep Learning, 2012
-@snapend
 @snap[north-east]
-##### CNN, Sliding Window
+#### Deep Learning, 2012
+CNN, Sliding Window
 @snapend
 ![picture of sliding window](_text_files/pitch_assets/slidingwindow.jpg)
 +++
 @snap[north-east]
 #### Deep Learning, 2012
-##### R-CNN
+R-CNN
 @snapend
 
 @div[left-50 fragment]
@@ -121,7 +119,7 @@
 +++
 @snap[north-east]
 #### Deep Learning, 2012
-##### R-CNN
+R-CNN
 @snapend
 ![rcnn region proposal](https://camo.githubusercontent.com/2acccab6babe00d58154424a4daabb2e40cd4a10/68747470733a2f2f7777772e6c6561726e6f70656e63762e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031372f30392f68696572617263686963616c2d7365676d656e746174696f6e2d312e6a7067)
 +++
