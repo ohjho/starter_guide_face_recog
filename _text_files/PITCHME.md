@@ -222,5 +222,4 @@ Say something about face recognition
 @snap[north]
 ### A Gift!
 @snapend
-@fa[gift fa-3x](Your Gift!)
-[A Starter Guide to Face Detection & Recognition in Python](https://github.com/ohjho/starter_guide_face_recog)
+@fa[gift fa-3x]( > ) [@fa[github fa-3x]](https://github.com/ohjho/starter_guide_face_recog)
