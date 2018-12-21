@@ -70,7 +70,7 @@ _       __     __                                  __             __
 #### 2010: Facebook
 @snapend
 <br />
-<img src='https://cdn-images-1.medium.com/max/600/0*ty_lPs0wP35t1XxH' height='400'/>
+<img src='https://cdn-images-1.medium.com/max/600/0*ty_lPs0wP35t1XxH' height='350'/>
 +++
 @snap[north-east]
 #### 2011: Panama
