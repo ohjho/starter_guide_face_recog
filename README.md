@@ -40,7 +40,7 @@ $ jupyter notebook
 Want to start working on an Image Recognition project?!
 
 Here are some **templates** to get yous started:
-* ![badge complete](https://img.shields.io/badge/Status-Completed-Green.svg)   [OpenCV](_templates/opencv_facedetection.ipynb)
+* ![badge testing](https://img.shields.io/badge/Status-Testing-Yellow.svg)   [OpenCV](_templates/opencv_facedetection.ipynb)
 * ![badge complete](https://img.shields.io/badge/Status-Completed-Green.svg)  [Dlib: HOG Face Detector](_templates/dlib_HOGfacedetector.ipynb)
 * ![badge complete](https://img.shields.io/badge/Status-Completed-Green.svg)  [Dlib: Facial Landmarks Detector](_templates/dlib_faciallandmarksdetector.ipynb)
 * ![badge work in progress](https://img.shields.io/badge/Status-Work%20In%20Progress-Orange.svg)  [YOLO2](_templates/yolo_v2.ipynb)
@@ -48,6 +48,7 @@ Here are some **templates** to get yous started:
 ## References
 ### Tutorials
 * [History of Facial Recongition](https://www.facefirst.com/blog/brief-history-of-face-recognition-software/)
+* [Advancements in Facial Recognition Systems](https://medium.com/coinmonks/from-the-rand-tablet-to-differentiating-identical-twins-aa4ba6031bb0)
 * An Intro [video by YoutTube star Siraj Raval](https://www.youtube.com/watch?v=4eIBisqx9_g&amp=&t=1116s)
 * [Face Detection for Beginners](https://towardsdatascience.com/face-detection-for-beginners-e58e8f21aad9)
 * [Methods for Face Detection and Face Recognition - A Review](https://medium.com/beesightsoft/methods-for-face-detection-and-face-recognition-a-review-57e73af1d67)
