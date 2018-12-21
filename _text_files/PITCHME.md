@@ -47,12 +47,13 @@ _       __     __                                  __             __
 @snap[north-east]
 #### 1970s: 21 Facial Markers
 @snapend
-<br /><br />
+<br />
 <img src='https://cdn-images-1.medium.com/max/600/0*IuKHrWCDkC8baWsD.png' height='450' />
 +++
 @snap[north-east]
 #### 1988: Eigenfaces
 @snapend
+<br />
 ![pic of eigenfaces](https://cdn-images-1.medium.com/max/600/0*FmfgrEtBOB6slWiH.jpg)
 +++
 @snap[north-east]
@@ -62,13 +63,14 @@ _       __     __                                  __             __
 @snap[north-east]
 #### 2002: Super bowl XXXV
 @snapend
-<br /><br />
+<br />
 <img src='https://www.tampabay.com/storyimage/HI/20180430/ARTICLE/304309783/AR/0/AR-304309783.jpg&MaxW=1200&Q=66' height = '450' />
 +++
 @snap[north-east]
 #### 2010: Facebook
 @snapend
-<img src='https://cdn-images-1.medium.com/max/600/0*ty_lPs0wP35t1XxH' height='450'/>
+<br />
+<img src='https://cdn-images-1.medium.com/max/600/0*ty_lPs0wP35t1XxH' height='400'/>
 +++
 @snap[north-east]
 #### 2011: Panama
