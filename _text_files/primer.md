@@ -137,9 +137,9 @@ Face Recognition is a two step process:
 ## Face Detection & Recognition Now
 This section discuss the most commonly used algorithms today.
 ### OpenCV
-Standing for Open Source Computer Vision, written originally in C/C++ but now with binding for Python.
+OpenCV stands for Open Source Computer Vision, written originally in C/C++ but now with binding for Python.
 
-The algorithm breaks the task of identifying a face into thousands of **classification** tasks. For a face, that's about 6000 classifier so for computational speed OpenCV uses a **cascade** model. The **cascade** model breaks the task of thousands of **classifications** into multiple stages. Doing rough and quick test at the earlier stages and only drilling down into the details, at later stages, if an image made it pass the early stages.
+The algorithm breaks the task of identifying a face into thousands of **classification** tasks. For a face, that's about 6000 classifier so for the sake of computational speed, OpenCV uses a **cascade** model. The **cascade** model breaks the task of thousands of **classifications** into multiple stages. Doing rough and quick test at the earlier stages and only drilling down into the details, at later stages, if an image made it pass the early stages.
 
 In practice, the **cascades** are a bunch of XML files pre-trained to identify specific features from faces to eyes to hands to even non-human things.
 
