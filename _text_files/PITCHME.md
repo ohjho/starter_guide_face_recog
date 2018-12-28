@@ -8,7 +8,7 @@ _       __     __                                  __             __
 
 -->
 @snap[north-east]
-### @color[black](A Gentle Introduction to Facial Detention and Recognition)
+### @color[black](A Gentle Introduction to Facial Detection and Recognition)
 @snapend
 +++?image=https://source.unsplash.com/PR9fXnVzfzw/
 @snap[west]
