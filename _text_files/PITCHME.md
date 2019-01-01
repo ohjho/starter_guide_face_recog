@@ -112,6 +112,7 @@ _       __     __                                  __             __
 @snap[north-east]
 ### Face Detection vs Face Recognition
 @snapend
+<br />
 @div[left-50 fragment]
 <img src = 'https://www.mantra.ai/wp-content/uploads/2018/09/Face-detection.png' width = '500' />
 @divend
@@ -122,6 +123,7 @@ _       __     __                                  __             __
 @snap[north-east]
 ### Face Detection
 @snapend
+<br />
 <img src = 'https://www.mantra.ai/wp-content/uploads/2018/09/Face-detection.png' height = '400' />
 +++
 @snap[north-east]
@@ -156,6 +158,7 @@ _       __     __                                  __             __
 @snap[north-east]
 #### Viola-Jones (Haar Cascades) Method, 2001
 @snapend
+<br />
 <img src='https://www.bogotobogo.com/python/OpenCV_Python/images/FaceDetection/stages.png' height = '400'>
 +++
 @snap[north-east]
@@ -212,7 +215,8 @@ R-CNN
 @snap[north-east]
 ### Face Recognition
 @snapend
-<img src = 'https://www.mantra.ai/wp-content/uploads/2017/06/faceRecognition.jpg' height = '400' />
+<br />
+<img src = 'https://www.mantra.ai/wp-content/uploads/2017/06/faceRecognition.jpg' height = '350' />
 
 ---?image=https://source.unsplash.com/jG1z5o7NCq4/
 <!-- Algo stack
