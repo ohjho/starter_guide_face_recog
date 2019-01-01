@@ -232,7 +232,9 @@ R-CNN
 -->
 ### Current Landscape
 +++
+@snap[north-east]
 ### OpenCV
+@snapend
 @div[left-50 fragment]
 <img src = 'https://www.superdatascience.com/wp-content/uploads/2017/07/False-Positive-1.png' width = '500' />
 @divend
@@ -295,4 +297,4 @@ R-CNN
 @snap[north]
 ### A Gift!
 @snapend
-@fa[gift fa-3x]( > ) [@fa[github fa-3x]](https://github.com/ohjho/starter_guide_face_recog)
+@fa[gift fa-3x]( &#8594; ) [@fa[github fa-3x]](https://github.com/ohjho/starter_guide_face_recog)
