@@ -23,9 +23,10 @@
 In contrast, **Recognition** is a multi-class classification: One-face vs. All Faces
 
 ## Face Detection
-Face detection is merely detecting faces in a picture, video or in real time. It has already implemented to many areas such as auto focusing camera.
+Face detection is the process of finding faces in pictures or videos (recorded or real time). It has already been implemented to areas such as auto focusing camera.
 
-Detecting a face is generally easier than recognising the face of a specific person. All human faces shares some universal properties of the human face such as the eyes region is relatively darker than its neighbour pixels and nose and forehead region is brighter than eye region.
+Detecting a face is generally easier than recognising the face of a specific person. All human faces shares some universal properties. For example, the eyes region is relatively darker than its neighbour pixels; and the nose and forehead region is brighter.  
+
 Therefore face detection algorithm searches general human face features as segments in the whole image.
 
 ### Face Detection Methods
@@ -45,7 +46,7 @@ Each of these figures represents a general feature of a human face. Combining al
 
 <img src='http://eyalarubas.com/images/face-detection-and-recognition/haar-all.jpg' height = '100'>  
 
-In order for this process be quick, it is designed it in such a way that we first check the coarse features which represent the coarse structure of a face; and only if these features match, we continue to the next iteration and use finer features. In each such iteration we can quickly reject areas of the picture which do not match a face, and keep checking those which we are not sure about. In every iteration we increase the certainty that the checked area is indeed a face, until finally we stop and make our determination.  
+In order for this process be quick, it is designed in such a way that we first check the coarse features which represent the structure of a face; and only if these features match, we continue to the next iteration and use finer features. In each iteration we can quickly reject areas of the picture which do not match a face, and keep checking those which we are not sure about. In every iteration we increase the certainty that the checked area is indeed a face, until finally we stop and make our determination.  
 
 <img src='https://www.bogotobogo.com/python/OpenCV_Python/images/FaceDetection/stages.png' height = '300'>
 

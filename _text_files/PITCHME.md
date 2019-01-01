@@ -123,7 +123,7 @@ _       __     __                                  __             __
 @snap[north-east]
 #### Viola-Jones (Haar Cascades) Method, 2001
 @snapend
-![pictures for haar cascades](https://docs.opencv.org/3.4/haar.png)
+<img src = 'https://docs.opencv.org/3.4/haar.png' height = '200' />
 +++
 @snap[north-east]
 #### Viola-Jones (Haar Cascades) Method, 2001
@@ -143,6 +143,16 @@ _       __     __                                  __             __
 @div[left-20 fragment]
 <img src='http://eyalarubas.com/images/face-detection-and-recognition/features-chin.jpg' height='250'>
 @divend
++++
+@snap[north-east]
+#### Viola-Jones (Haar Cascades) Method, 2001
+@snapend
+<img src='http://eyalarubas.com/images/face-detection-and-recognition/haar-all.jpg' height = '250'>  
++++
+@snap[north-east]
+#### Viola-Jones (Haar Cascades) Method, 2001
+@snapend
+<img src='https://www.bogotobogo.com/python/OpenCV_Python/images/FaceDetection/stages.png' height = '300'>
 +++
 @snap[north-east]
 #### Histogram of Oriented Gradients (HOG), 2005
