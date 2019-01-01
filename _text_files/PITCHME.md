@@ -238,12 +238,17 @@ R-CNN
 @snap[north-east]
 ### DLIB
 @snapend
+<br />
+<img src = 'http://dlib.net/ml_guide.svg' height = '500'>
++++
+@snap[north-east]
+### DLIB
+@snapend
 @div[left-50 fragment]
-![dlib ML library](http://dlib.net/ml_guide.svg)
+<img src='http://1.bp.blogspot.com/-pPgDErLVJ_k/UvBGZk22ZXI/AAAAAAAAALs/c0mJmAVZnQE/s1600/face_fhog_filters.png' height = '300'>
 @divend
 @div[right-50 fragment]
-<img src='http://1.bp.blogspot.com/-pPgDErLVJ_k/UvBGZk22ZXI/AAAAAAAAALs/c0mJmAVZnQE/s1600/face_fhog_filters.png' height = '200'>
-<img src='https://i.stack.imgur.com/9bUgR.png' height = '200'>
+<img src='https://i.stack.imgur.com/9bUgR.png' height = '300'>
 @divend
 +++
 @snap[north-east]
