@@ -123,25 +123,25 @@ _       __     __                                  __             __
 @snap[north-east]
 #### Viola-Jones (Haar Cascades) Method, 2001
 @snapend
-![pictures for haar cascades](https://camo.githubusercontent.com/0f790d55eb2259d28669dd537fe2a385b6d4e730/68747470733a2f2f646f63732e6f70656e63762e6f72672f332e342f686161722e706e67)
+![pictures for haar cascades](https://docs.opencv.org/3.4/haar.png)
 +++
 @snap[north-east]
 #### Viola-Jones (Haar Cascades) Method, 2001
 @snapend
 @div[left-20 fragment]
-<img src='http://eyalarubas.com/images/face-detection-and-recognition/features-eyebrows.jpg' height='100'>
+<img src='http://eyalarubas.com/images/face-detection-and-recognition/features-eyebrows.jpg' height='250'>
 @divend
 @div[left-20 fragment]
-<img src='http://eyalarubas.com/images/face-detection-and-recognition/features-nose.jpg' height='100'>
+<img src='http://eyalarubas.com/images/face-detection-and-recognition/features-nose.jpg' height='250'>
 @divend
-@div[right-20 fragment]
-<img src='http://eyalarubas.com/images/face-detection-and-recognition/haar-eyes.jpg' height='100'>
+@div[left-20 fragment]
+<img src='http://eyalarubas.com/images/face-detection-and-recognition/haar-eyes.jpg' height='250'>
 @divend
-@div[right-20 fragment]
-<img src='http://eyalarubas.com/images/face-detection-and-recognition/features-mouth.jpg' height='100'>
+@div[left-20 fragment]
+<img src='http://eyalarubas.com/images/face-detection-and-recognition/features-mouth.jpg' height='250'>
 @divend
-@div[right-20 fragment]
-<img src='http://eyalarubas.com/images/face-detection-and-recognition/features-chin.jpg' height='100'>
+@div[left-20 fragment]
+<img src='http://eyalarubas.com/images/face-detection-and-recognition/features-chin.jpg' height='250'>
 @divend
 +++
 @snap[north-east]
