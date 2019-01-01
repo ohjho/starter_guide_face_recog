@@ -114,9 +114,10 @@ Then it...
 
 ## Face Recognition
 
-Face Recognition takes one step further than face detection as it recognise the identity of a person given that the algorithm has been on that particular person's face.
+Face Recognition takes one step further than face detection as it recognise the identity of a person, given that the algorithm has been trained on that particular person's face.
 
-A single face should be given as input, and the output will be a name, or class name or unknown face. [PCA, LDA]
+A single face should be given as input, and the output will be a name, or class name or unknown face. [PCA, LDA]  
+
 One popular recognition algorithm is PCA using eigenfaces.
 
 <img src='http://eyalarubas.com/images/face-detection-and-recognition/eigenfaces.jpg' width='250' />

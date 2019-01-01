@@ -112,18 +112,23 @@ _       __     __                                  __             __
 @snap[north-east]
 ### Face Detection vs Face Recognition
 @snapend
-
+@div[left-50 fragment]
+<img src = 'https://www.mantra.ai/wp-content/uploads/2018/09/Face-detection.png' width = '400' />
+@divend
+@div[right-50 fragment]
+<img src = 'https://www.mantra.ai/wp-content/uploads/2017/06/faceRecognition.jpg' width = '400' />
+@divend
 ![An awesome image of face detection vs recognition]()
 +++
 @snap[north-east]
 ### Face Detection
 @snapend
-![an awesome face detection image]()
+![an awesome face detection image](https://www.dailydot.com/wp-content/uploads/7da/6e/fc3aa93d4cf68ff5406f291efcd81b08.jpg)
 +++
 @snap[north-east]
 #### Viola-Jones (Haar Cascades) Method, 2001
 @snapend
-<img src = 'https://docs.opencv.org/3.4/haar.png' height = '200' />
+<img src = 'https://docs.opencv.org/3.4/haar.png' height = '300' />
 +++
 @snap[north-east]
 #### Viola-Jones (Haar Cascades) Method, 2001
@@ -152,7 +157,7 @@ _       __     __                                  __             __
 @snap[north-east]
 #### Viola-Jones (Haar Cascades) Method, 2001
 @snapend
-<img src='https://www.bogotobogo.com/python/OpenCV_Python/images/FaceDetection/stages.png' height = '300'>
+<img src='https://www.bogotobogo.com/python/OpenCV_Python/images/FaceDetection/stages.png' height = '400'>
 +++
 @snap[north-east]
 #### Histogram of Oriented Gradients (HOG), 2005
@@ -208,7 +213,7 @@ R-CNN
 @snap[north-east]
 ### Face Recognition
 @snapend
-Say something about face recognition
+![face recognition example](https://www.mantra.ai/wp-content/uploads/2017/06/faceRecognition.jpg)
 
 ---?image=https://source.unsplash.com/jG1z5o7NCq4/
 <!-- Algo stack
