@@ -233,12 +233,17 @@ R-CNN
 ### Current Landscape
 +++
 ### OpenCV
-![An image to explain OpenCV]()
+@div[left-50 fragment]
+<img src = 'https://www.superdatascience.com/wp-content/uploads/2017/07/False-Positive-1.png' width = '500' />
+@divend
+@div[right-50 fragment]
+<img src = 'https://www.superdatascience.com/wp-content/uploads/2017/07/False-Positive-Fix.png' width = '500' />
+@divend
 +++
 @snap[north-east]
 ### DLIB
 @snapend
-<br />
+<br /><br />
 <img src = 'http://dlib.net/ml_guide.svg' height = '500'>
 +++
 @snap[north-east]
