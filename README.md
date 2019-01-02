@@ -11,7 +11,7 @@
   * [References](#references)
   * [Installing the Required Packages](#installing-the-required-packages)
   * [Credits](#pray-credits)
-  * [License](#black-nib-license)
+  * [License](#black_nib-license)
 
 ## Intro
 To understand what is Facial Detection and/or recognition, you can read our [**primer**](_text_files/primer.md) or checkout a the [**slides**](https://gitpitch.com/ohjho/starter_guide_img_recog/master?p=_text_files) we made for our data science bootcamp presentation.
