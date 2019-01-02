@@ -5,7 +5,7 @@
 * 1988: Sirovich and Kirby applied linear algebra to facial recognition creating **Eigenfaces**
 * 1991: Turk and Pentland applied Eigenface within images to do the **first automatic face recognition**
 * 1990s: **FERET program** created by the US government to encourage commercial face recognition technology to develop. The project create a dataset of 2000+ facial images
-* 2002: law enforcement tested facial recognition at **Supe bowl XXXV** with limited success.
+* 2002: law enforcement tested facial recognition at **Super bowl XXXV** with limited success.
 * 2000s: **FRVT program** formed by the US government to evaluate commercial facial recognition systems, mainly to help law enforcement agencies when selecting which technology to use.
 * 2009: the Pinellas County Sherriff's Office created a **forensic database** which by 2011 aided in many arrest by deputies outfitted with cameras.
 * 2010: **Facebook** launched the feature to suggest photo tag
@@ -33,7 +33,7 @@ Therefore face detection algorithm searches general human face features as segme
 #### Viola-Jones Method (aka Haar Cascades), 2001  
 ![harr-cascades](https://docs.opencv.org/3.4/haar.png)  
 
-The following figures shows how Harr Cascades identify features from a human face.  
+The following figures shows how Haar Cascades identify features from a human face.  
 <p>
 <img src='http://eyalarubas.com/images/face-detection-and-recognition/features-eyebrows.jpg' height='100'>
 <img src='http://eyalarubas.com/images/face-detection-and-recognition/features-nose.jpg' height='100'>
@@ -74,7 +74,7 @@ By repeat that process for every single pixel in the image, we replace every pix
 
 <img src='https://bit.ly/2Lusa3r' height='200'>
 
-The image is splitted into small squares of 16x16 pixels. In each square, we’ll count up how many gradients point in each major direction and the square is replaced by the arrow directions that are the strongest. The original image is converted into simple representation that captures **basic structure** of a face in a simple way. Detecting faces means find the part of our image that looks the most similar to a known HOG pattern that was extracted from a bunch of other training faces:  
+The image is split into small squares of 16x16 pixels. In each square, we’ll count up how many gradients point in each major direction and the square is replaced by the arrow directions that are the strongest. The original image is converted into simple representation that captures **basic structure** of a face in a simple way. Detecting faces means find the part of our image that looks the most similar to a known HOG pattern that was extracted from a bunch of other training faces:  
 <img src='https://cdn-images-1.medium.com/max/800/1*6xgev0r-qn4oR88FrW6fiA.png' height='300'>
 
 #### Facial Landmark Detection, 2014
@@ -94,7 +94,7 @@ This enable us to compare and proceed next step much easier, including face reco
 #### Deep Learning, 2012
 Using pre-trained Convolutional Neural Networks (CNN) like **VGG** or **Inception** classifier and running it on a small **sliding window** across the given image. At each step we get a prediction of what's within the window. And at a given threshold, we only keep the classified objects with high predictive values.
 
-![CNN Sliding Windown](https://cv-tricks.com/wp-content/uploads/2016/12/3.png.pagespeed.ce.nvAm4I5IA0.png)
+![CNN Sliding Window](https://cv-tricks.com/wp-content/uploads/2016/12/3.png.pagespeed.ce.nvAm4I5IA0.png)
 
 #### R-CNN
 An improvement on basic CNN, it split the task of image detection into **region proposal** and **classification**. The **region proposal** uses **selective search**.
@@ -114,7 +114,7 @@ Then it...
 
 ## Face Recognition
 
-Face Recognition takes one step further than face detection as it recognise the identity of a person, given that the algorithm has been trained on that particular person's face.
+Face Recognition takes one step further than face detection as it recognises the identity of a person, given that the algorithm has been trained on that particular person's face.
 
 A single face should be given as input, and the output will be a name, or class name or unknown face. [PCA, LDA]  
 
