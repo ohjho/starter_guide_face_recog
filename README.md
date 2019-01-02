@@ -60,6 +60,7 @@ Here are some **templates** to get yous started:
 * [Advancements in Facial Recognition Systems](https://medium.com/coinmonks/from-the-rand-tablet-to-differentiating-identical-twins-aa4ba6031bb0)
 * An Intro [video by YoutTube star Siraj Raval](https://www.youtube.com/watch?v=4eIBisqx9_g&amp=&t=1116s)
 * [Face Detection for Beginners](https://towardsdatascience.com/face-detection-for-beginners-e58e8f21aad9)
+* [Face Recognition for Beginners](https://towardsdatascience.com/face-recognition-for-beginners-a7a9bd5eb5c2)
 * [Methods for Face Detection and Face Recognition - A Review](https://medium.com/beesightsoft/methods-for-face-detection-and-face-recognition-a-review-57e73af1d67)
 * [Modern Face Recognition with Deep Learning](https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78)
 * [Building a Face Detection Model from Video using Deep Learning](https://www.analyticsvidhya.com/blog/2018/12/introduction-face-detection-video-deep-learning-python/)
@@ -68,6 +69,12 @@ Here are some **templates** to get yous started:
 * [Face Recognition with Python, in Under 25 Lines of Code](https://realpython.com/face-recognition-with-python/)
 * [Using OpenCV to play "Where's Waldo?"](https://machinelearningmastery.com/using-opencv-python-and-template-matching-to-play-wheres-waldo/)
 * [OpenCV Face Recognition](https://www.pyimagesearch.com/2018/09/24/opencv-face-recognition/)
+#### Dlib
+* [HOG as object detector explained](http://blog.dlib.net/2014/02/dlib-186-released-make-your-own-object.html)
+* [Make your own object detector with HOG](http://www.hackevolve.com/create-your-own-object-detector/)
+* [Understanding dlib's facial landmark detector](https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/)
+* [HOG vs CNN based face detector from dlib] (https://towardsdatascience.com/cnn-based-face-detector-from-dlib-c3696195e01c)
+* [Dlib's deep learning on facial recognition](http://blog.dlib.net/2017/02/high-quality-face-recognition-with-deep.html)
 #### YOLO
 * A [TED talk](https://www.youtube.com/watch?v=Cgxsv1riJhI) by one of the developer of YOLO
 * A [video](https://www.youtube.com/watch?v=NM6lrxy0bxs) about how YOLO works
