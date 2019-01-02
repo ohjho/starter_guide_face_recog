@@ -33,8 +33,6 @@
 * 2017: **iPhone X** uses facial recognition for device security and payment
 * 2017: FaceFirst launched **Watchlist as a service** to help retail clients prevent shoplifting and violent crime.
 
----
-
 ## Face Detection vs Face Recognition
 **Detection** is a two-class classification: Face vs. Non-face  
 
