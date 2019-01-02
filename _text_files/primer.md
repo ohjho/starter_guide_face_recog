@@ -12,9 +12,9 @@
       - [R-CNN](#r-cnn)
   * [Face Recognition](#face-recognition)
     + [Applications](#applications)
-  * [Face Detection & Recognition Now](#face-detection---recognition-now)
+  * [Face Detection & Recognition Now](#face-detection--recognition-now)
     + [OpenCV](#opencv)
-    + [YOLO (v1: 2015, v2: 2016, v3: 2018)](#yolo--v1--2015--v2--2016--v3--2018-)
+    + [YOLO (v1: 2015, v2: 2016, v3: 2018)](#yolo-v1-2015-v2-2016-v3-2018)
     + [DLIB](#dlib)
 
 ## A Brief History
