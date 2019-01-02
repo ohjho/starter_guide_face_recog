@@ -4,6 +4,15 @@
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 ![tested-on-osx](https://img.shields.io/badge/Tested%20on-OSX-lightgrey.svg)
 
+## Table of Content
+  * [Intro](#intro)
+  * [How to Use this repo](#how-to-use-this-repo)
+  * [:clipboard: Boilerplates](#-clipboard--boilerplates)
+  * [References](#references)
+  * [Installing the Required Packages](#installing-the-required-packages)
+  * [:pray: Credits](#-pray--credits)
+  * [:black_nib: License](#-black-nib--license)
+
 ## Intro
 To understand what is Facial Detection and/or recognition, you can read our [**primer**](_text_files/primer.md) or checkout a the [**slides**](https://gitpitch.com/ohjho/starter_guide_img_recog/master?p=_text_files) we made for our data science bootcamp presentation.
 
