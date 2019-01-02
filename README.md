@@ -114,6 +114,7 @@ $ python3 setup.py install
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
+* you need [X11](https://support.apple.com/en-hk/HT201341) to be installed **before** installing `dlib`, else you may experience [AttributeError](https://github.com/davisking/dlib/issues/302). To install: Head to [XQuartz](https://www.xquartz.org/) to download the latest version.
 * you need to have `cmake`. To install: `brew install cmake`
 ### YOLO
 There are currently three main implementations of YOLO:
