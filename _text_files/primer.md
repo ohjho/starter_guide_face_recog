@@ -1,4 +1,22 @@
 # :camera: What is Face Detection and Recognition
+  * [A Brief History](#a-brief-history)
+  * [Face Detection vs Face Recognition](#face-detection-vs-face-recognition)
+  * [Face Detection](#face-detection)
+    + [Face Detection Methods](#face-detection-methods)
+      - [Viola-Jones Method (aka Haar Cascades), 2001](#viola-jones-method--aka-haar-cascades---2001)
+      - [Histogram of Oriented Gradients (HOG), 2005](#histogram-of-oriented-gradients--hog---2005)
+      - [Facial Landmark Detection, 2014](#facial-landmark-detection--2014)
+      - [Deep Learning, 2012](#deep-learning--2012)
+      - [R-CNN](#r-cnn)
+  * [Face Recognition](#face-recognition)
+    + [Applications](#applications)
+  * [Face Detection & Recognition Now](#face-detection---recognition-now)
+    + [OpenCV](#opencv)
+    + [YOLO (v1: 2015, v2: 2016, v3: 2018)](#yolo--v1--2015--v2--2016--v3--2018-)
+    + [DLIB](#dlib)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 ## A Brief History
 * 1960s: Woodrow Wilson Bledsoe invented the **RAND tablet**
 * 1970s: Goldstein, Harmon, and Lesk proposed **21 Facial Markers**
@@ -20,14 +38,16 @@
 ## Face Detection vs Face Recognition
 **Detection** is a two-class classification: Face vs. Non-face  
 
-In contrast, **Recognition** is a multi-class classification: One-face vs. All Faces
+In contrast, **Recognition** is a multi-class classification: Many Trained Faces.
+
+We are going to dive into each in greater depth to illustrate the difference.
 
 ## Face Detection
-Face detection is the process of finding faces in pictures or videos (recorded or real time). It has already been implemented to areas such as auto focusing camera.
+Face detection is the process of finding faces in pictures or videos (recorded or real time). It has already been implemented in areas such as auto focusing camera.
 
-Detecting a face is generally easier than recognising the face of a specific person. All human faces shares some universal properties. For example, the eyes region is relatively darker than its neighbour pixels; and the nose and forehead region is brighter.  
+Detecting a face is generally easier than recognising the face of a specific person. All human faces shares some universal properties. For example, the eye region is relatively darker than its neighbouring pixels; and the nose and forehead regions are brighter.  
 
-Therefore face detection algorithm searches general human face features as segments in the whole image.
+In short, a face detection algorithm searches general human face features as segments in the given image.
 
 ### Face Detection Methods
 #### Viola-Jones Method (aka Haar Cascades), 2001  
@@ -70,7 +90,7 @@ Then we compare the darkness of current pixels with those directly surrounding i
 
 <img src = 'https://cdn-images-1.medium.com/max/800/1*WF54tQnH1Hgpoqk-Vtf9Lg.gif' height='200'>
 
-By repeat that process for every single pixel in the image, we replace every pixel by an arrow. These arrows are called **gradients** and they show the flow from light to dark across the entire image.  
+By repeating that process for every single pixel in the image, we replace every pixel by an arrow. These arrows are called **gradients** and they show the flow from light to dark across the entire image.  
 
 <img src='https://bit.ly/2Lusa3r' height='200'>
 
