@@ -164,8 +164,8 @@ The parameterization fixes the output size for detection. So we have a output te
 ![yolo output tensor prediction](https://www.renom.jp/notebooks/tutorial/image_processing/yolo/yolo010.png)  
 
 ### DLIB
-DLib is a C++ library/toolkit that contains machine learning algorithms, including computer vision, however, you can use a number of its tools from python applications.
+Dlib is a C++ library/toolkit that contains machine learning algorithms, including computer vision, however, you can use a number of its tools from python applications.
 
-Dlib is commonly used for **face detection** and **facial landmark detection**. The face detection works by computing **HOG features** and classifiying them with a **linear SVM**, while facial landmark detection uses **random forests**. Popular face recognition libraries such as [face_recognition](https://github.com/ageitgey/face_recognition) and [openface](https://github.com/cmusatyalab/openface) use dlib underneath.
+Dlib is commonly used for **face detection** and **facial landmark detection**. The face detection works by computing **HOG features** and classifying them with a **linear SVM**, while facial landmark detection uses **random forests**. Popular face recognition libraries such as [face_recognition](https://github.com/ageitgey/face_recognition) and [openface](https://github.com/cmusatyalab/openface) use dlib underneath.
 
-Dlib also has deep neural network (**DNN**) support to do face recognition. [Example](http://blog.dlib.net/2017/02/high-quality-face-recognition-with-deep.html) shows that the pretrained dlib_face_recognition_resnet_model_v1 model has a 99.38% accuracy on the [Labeled Faces in the Wild](http://vis-www.cs.umass.edu/lfw/).
+Dlib also has deep neural network (**DNN**) support to do face recognition. [Example](http://blog.dlib.net/2017/02/high-quality-face-recognition-with-deep.html) shows that the pre-trained dlib_face_recognition_resnet_model_v1 model has a 99.38% accuracy on the [Labeled Faces in the Wild](http://vis-www.cs.umass.edu/lfw/).
