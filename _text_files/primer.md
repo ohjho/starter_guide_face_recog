@@ -1,4 +1,6 @@
 # :camera: What is Face Detection and Recognition
+
+## Table of Content
   * [A Brief History](#a-brief-history)
   * [Face Detection vs Face Recognition](#face-detection-vs-face-recognition)
   * [Face Detection](#face-detection)
@@ -14,8 +16,6 @@
     + [OpenCV](#opencv)
     + [YOLO (v1: 2015, v2: 2016, v3: 2018)](#yolo--v1--2015--v2--2016--v3--2018-)
     + [DLIB](#dlib)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 ## A Brief History
 * 1960s: Woodrow Wilson Bledsoe invented the **RAND tablet**
