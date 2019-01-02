@@ -73,7 +73,7 @@ Here are some **templates** to get yous started:
 * [HOG as object detector explained](http://blog.dlib.net/2014/02/dlib-186-released-make-your-own-object.html)
 * [Make your own object detector with HOG](http://www.hackevolve.com/create-your-own-object-detector/)
 * [Understanding dlib's facial landmark detector](https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/)
-* [HOG vs CNN based face detector from dlib] (https://towardsdatascience.com/cnn-based-face-detector-from-dlib-c3696195e01c)
+* [HOG vs CNN based face detector from dlib](https://towardsdatascience.com/cnn-based-face-detector-from-dlib-c3696195e01c)
 * [Dlib's deep learning on facial recognition](http://blog.dlib.net/2017/02/high-quality-face-recognition-with-deep.html)
 #### YOLO
 * A [TED talk](https://www.youtube.com/watch?v=Cgxsv1riJhI) by one of the developer of YOLO
