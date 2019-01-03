@@ -69,6 +69,7 @@ Here are some **templates** to get yous started:
 * [Face Recognition with Python, in Under 25 Lines of Code](https://realpython.com/face-recognition-with-python/)
 * [Using OpenCV to play "Where's Waldo?"](https://machinelearningmastery.com/using-opencv-python-and-template-matching-to-play-wheres-waldo/)
 * [OpenCV Face Recognition](https://www.pyimagesearch.com/2018/09/24/opencv-face-recognition/)
+* [Facial Recognition in OpenCV, Python, and Deep Learning](https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/)
 #### Dlib
 * [HOG as object detector explained](http://blog.dlib.net/2014/02/dlib-186-released-make-your-own-object.html)
 * [Make your own object detector with HOG](http://www.hackevolve.com/create-your-own-object-detector/)
