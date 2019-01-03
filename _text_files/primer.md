@@ -1,11 +1,29 @@
 # :camera: What is Face Detection and Recognition
+
+## Table of Content
+  * [A Brief History](#a-brief-history)
+  * [Face Detection vs Face Recognition](#face-detection-vs-face-recognition)
+  * [Face Detection](#face-detection)
+    + [Face Detection Methods](#face-detection-methods)
+      - [Viola-Jones Method (aka Haar Cascades), 2001](#viola-jones-method--aka-haar-cascades---2001)
+      - [Histogram of Oriented Gradients (HOG), 2005](#histogram-of-oriented-gradients--hog---2005)
+      - [Facial Landmark Detection, 2014](#facial-landmark-detection--2014)
+      - [Deep Learning, 2012](#deep-learning--2012)
+      - [R-CNN](#r-cnn)
+  * [Face Recognition](#face-recognition)
+    + [Applications](#applications)
+  * [Face Detection & Recognition Now](#face-detection--recognition-now)
+    + [OpenCV](#opencv)
+    + [YOLO (v1: 2015, v2: 2016, v3: 2018)](#yolo-v1-2015-v2-2016-v3-2018)
+    + [DLIB](#dlib)
+
 ## A Brief History
 * 1960s: Woodrow Wilson Bledsoe invented the **RAND tablet**
 * 1970s: Goldstein, Harmon, and Lesk proposed **21 Facial Markers**
 * 1988: Sirovich and Kirby applied linear algebra to facial recognition creating **Eigenfaces**
 * 1991: Turk and Pentland applied Eigenface within images to do the **first automatic face recognition**
 * 1990s: **FERET program** created by the US government to encourage commercial face recognition technology to develop. The project create a dataset of 2000+ facial images
-* 2002: law enforcement tested facial recognition at **Supe bowl XXXV** with limited success.
+* 2002: law enforcement tested facial recognition at **Super bowl XXXV** with limited success.
 * 2000s: **FRVT program** formed by the US government to evaluate commercial facial recognition systems, mainly to help law enforcement agencies when selecting which technology to use.
 * 2009: the Pinellas County Sherriff's Office created a **forensic database** which by 2011 aided in many arrest by deputies outfitted with cameras.
 * 2010: **Facebook** launched the feature to suggest photo tag
@@ -15,24 +33,25 @@
 * 2017: **iPhone X** uses facial recognition for device security and payment
 * 2017: FaceFirst launched **Watchlist as a service** to help retail clients prevent shoplifting and violent crime.
 
----
-
 ## Face Detection vs Face Recognition
 **Detection** is a two-class classification: Face vs. Non-face  
 
-In contrast, **Recognition** is a multi-class classification: One-face vs. All Faces
+In contrast, **Recognition** is a multi-class classification: Many Trained Faces.
+
+We are going to dive into each in greater depth to illustrate the difference.
 
 ## Face Detection
-Face detection is merely detecting faces in a picture, video or in real time. It has already implemented to many areas such as auto focusing camera.
+Face detection is the process of finding faces in pictures or videos (recorded or real time). It has already been implemented in areas such as auto focusing camera.
 
-Detecting a face is generally easier than recognising the face of a specific person. All human faces shares some universal properties of the human face such as the eyes region is relatively darker than its neighbour pixels and nose and forehead region is brighter than eye region.
-Therefore face detection algorithm searches general human face features as segments in the whole image.
+Detecting a face is generally easier than recognising the face of a specific person. All human faces shares some universal properties. For example, the eye region is relatively darker than its neighbouring pixels; and the nose and forehead regions are brighter.  
+
+In short, a face detection algorithm searches general human face features as segments in the given image.
 
 ### Face Detection Methods
 #### Viola-Jones Method (aka Haar Cascades), 2001  
 ![harr-cascades](https://docs.opencv.org/3.4/haar.png)  
 
-The following figures shows how Harr Cascades identify features from a human face.  
+The following figures shows how Haar Cascades identify features from a human face.  
 <p>
 <img src='http://eyalarubas.com/images/face-detection-and-recognition/features-eyebrows.jpg' height='100'>
 <img src='http://eyalarubas.com/images/face-detection-and-recognition/features-nose.jpg' height='100'>
@@ -45,7 +64,7 @@ Each of these figures represents a general feature of a human face. Combining al
 
 <img src='http://eyalarubas.com/images/face-detection-and-recognition/haar-all.jpg' height = '100'>  
 
-In order for this process be quick, it is designed it in such a way that we first check the coarse features which represent the coarse structure of a face; and only if these features match, we continue to the next iteration and use finer features. In each such iteration we can quickly reject areas of the picture which do not match a face, and keep checking those which we are not sure about. In every iteration we increase the certainty that the checked area is indeed a face, until finally we stop and make our determination.  
+In order for this process be quick, it is designed in such a way that we first check the coarse features which represent the structure of a face; and only if these features match, we continue to the next iteration and use finer features. In each iteration we can quickly reject areas of the picture which do not match a face, and keep checking those which we are not sure about. In every iteration we increase the certainty that the checked area is indeed a face, until finally we stop and make our determination.  
 
 <img src='https://www.bogotobogo.com/python/OpenCV_Python/images/FaceDetection/stages.png' height = '300'>
 
@@ -69,11 +88,11 @@ Then we compare the darkness of current pixels with those directly surrounding i
 
 <img src = 'https://cdn-images-1.medium.com/max/800/1*WF54tQnH1Hgpoqk-Vtf9Lg.gif' height='200'>
 
-By repeat that process for every single pixel in the image, we replace every pixel by an arrow. These arrows are called **gradients** and they show the flow from light to dark across the entire image.  
+By repeating that process for every single pixel in the image, we replace every pixel by an arrow. These arrows are called **gradients** and they show the flow from light to dark across the entire image.  
 
 <img src='https://bit.ly/2Lusa3r' height='200'>
 
-The image is splitted into small squares of 16x16 pixels. In each square, we’ll count up how many gradients point in each major direction and the square is replaced by the arrow directions that are the strongest. The original image is converted into simple representation that captures **basic structure** of a face in a simple way. Detecting faces means find the part of our image that looks the most similar to a known HOG pattern that was extracted from a bunch of other training faces:  
+The image is split into small squares of 16x16 pixels. In each square, we’ll count up how many gradients point in each major direction and the square is replaced by the arrow directions that are the strongest. The original image is converted into simple representation that captures **basic structure** of a face in a simple way. Detecting faces means find the part of our image that looks the most similar to a known HOG pattern that was extracted from a bunch of other training faces:  
 <img src='https://cdn-images-1.medium.com/max/800/1*6xgev0r-qn4oR88FrW6fiA.png' height='300'>
 
 #### Facial Landmark Detection, 2014
@@ -93,7 +112,7 @@ This enable us to compare and proceed next step much easier, including face reco
 #### Deep Learning, 2012
 Using pre-trained Convolutional Neural Networks (CNN) like **VGG** or **Inception** classifier and running it on a small **sliding window** across the given image. At each step we get a prediction of what's within the window. And at a given threshold, we only keep the classified objects with high predictive values.
 
-![CNN Sliding Windown](https://cv-tricks.com/wp-content/uploads/2016/12/3.png.pagespeed.ce.nvAm4I5IA0.png)
+![CNN Sliding Window](https://cv-tricks.com/wp-content/uploads/2016/12/3.png.pagespeed.ce.nvAm4I5IA0.png)
 
 #### R-CNN
 An improvement on basic CNN, it split the task of image detection into **region proposal** and **classification**. The **region proposal** uses **selective search**.
@@ -113,9 +132,10 @@ Then it...
 
 ## Face Recognition
 
-Face Recognition takes one step further than face detection as it recognise the identity of a person given that the algorithm has been on that particular person's face.
+Face Recognition takes one step further than face detection as it recognises the identity of a person, given that the algorithm has been trained on that particular person's face.
 
-A single face should be given as input, and the output will be a name, or class name or unknown face. [PCA, LDA]
+A single face should be given as input, and the output will be a name, or class name or unknown face. [PCA, LDA]  
+
 One popular recognition algorithm is PCA using eigenfaces.
 
 <img src='http://eyalarubas.com/images/face-detection-and-recognition/eigenfaces.jpg' width='250' />
@@ -139,7 +159,7 @@ This section discuss the most commonly used algorithms today.
 ### OpenCV
 OpenCV stands for Open Source Computer Vision, written originally in C/C++ but now with binding for Python.
 
-The algorithm breaks the task of identifying a face into thousands of **classification** tasks. For a face, that's about 6000 classifier so for the sake of computational speed, OpenCV uses a **cascade** model. The **cascade** model breaks the task of thousands of **classifications** into multiple stages. Doing rough and quick test at the earlier stages and only drilling down into the details, at later stages, if an image made it pass the early stages.
+The algorithm breaks the task of identifying a face into thousands of **classification** tasks. For a face, that is about 6000 classifiers. Therefore, for the sake of computational speed, OpenCV uses a **cascade** model. The **cascade** model breaks the task of thousands of **classifications** into multiple stages. Doing rough and quick test at the earlier stages and only drilling down into the details, at later stages, if an image made it pass the early stages.
 
 In practice, the **cascades** are a bunch of XML files pre-trained to identify specific features from faces to eyes to hands to even non-human things.
 
@@ -162,8 +182,11 @@ The parameterization fixes the output size for detection. So we have a output te
 ![yolo output tensor prediction](https://www.renom.jp/notebooks/tutorial/image_processing/yolo/yolo010.png)  
 
 ### DLIB
-DLib is a C++ library/toolkit that contains machine learning algorithms, including computer vision, however, you can use a number of its tools from python applications.
+Dlib is a C++ library/toolkit that contains machine learning algorithms, including computer vision, however, you can use a number of its tools from python applications.
 
-Dlib is commonly used for **face detection** and **facial landmark detection**. The face detection works by computing **HOG features** and classifiying them with a **linear SVM**, while facial landmark detection uses **random forests**. Popular face recognition libraries such as [face_recognition](https://github.com/ageitgey/face_recognition) and [openface](https://github.com/cmusatyalab/openface) use dlib underneath.
+Dlib is commonly used for **face detection** and **facial landmark detection**. The face detection works by computing **HOG features** and classifying them with a **linear [SVM][url_svm]**, while facial landmark detection uses **random forests**. Popular face recognition libraries such as [face_recognition](https://github.com/ageitgey/face_recognition) and [openface](https://github.com/cmusatyalab/openface) use dlib underneath.
 
-Dlib also has deep neural network (**DNN**) support to do face recognition. [Example](http://blog.dlib.net/2017/02/high-quality-face-recognition-with-deep.html) shows that the pretrained dlib_face_recognition_resnet_model_v1 model has a 99.38% accuracy on the [Labeled Faces in the Wild](http://vis-www.cs.umass.edu/lfw/).
+Dlib also has deep neural network (**DNN**) support to do face recognition. [Example](http://blog.dlib.net/2017/02/high-quality-face-recognition-with-deep.html) shows that the pre-trained dlib_face_recognition_resnet_model_v1 model has a 99.38% accuracy on the [Labeled Faces in the Wild](http://vis-www.cs.umass.edu/lfw/).
+
+
+[url_svm]: https://medium.com/machine-learning-101/chapter-2-svm-support-vector-machine-theory-f0812effc72

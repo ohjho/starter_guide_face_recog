@@ -112,18 +112,54 @@ _       __     __                                  __             __
 @snap[north-east]
 ### Face Detection vs Face Recognition
 @snapend
-
-![An awesome image of face detection vs recognition]()
+<br />
+@div[left-50 fragment]
+<img src = 'https://www.mantra.ai/wp-content/uploads/2018/09/Face-detection.png' width = '500' />
+@divend
+@div[right-50 fragment]
+<img src = 'https://www.mantra.ai/wp-content/uploads/2017/06/faceRecognition.jpg' width = '500' />
+@divend
 +++
 @snap[north-east]
 ### Face Detection
 @snapend
-![an awesome face detection image]()
+<br />
+<img src = 'https://www.mantra.ai/wp-content/uploads/2018/09/Face-detection.png' height = '400' />
 +++
 @snap[north-east]
 #### Viola-Jones (Haar Cascades) Method, 2001
 @snapend
-![pictures for haar cascades]()
+<img src = 'https://docs.opencv.org/3.4/haar.png' height = '300' />
++++
+@snap[north-east]
+#### Viola-Jones (Haar Cascades) Method, 2001
+@snapend
+@div[left-20 fragment]
+<img src='http://eyalarubas.com/images/face-detection-and-recognition/features-eyebrows.jpg' height='250'>
+@divend
+@div[left-20 fragment]
+<img src='http://eyalarubas.com/images/face-detection-and-recognition/features-nose.jpg' height='250'>
+@divend
+@div[left-20 fragment]
+<img src='http://eyalarubas.com/images/face-detection-and-recognition/haar-eyes.jpg' height='250'>
+@divend
+@div[left-20 fragment]
+<img src='http://eyalarubas.com/images/face-detection-and-recognition/features-mouth.jpg' height='250'>
+@divend
+@div[left-20 fragment]
+<img src='http://eyalarubas.com/images/face-detection-and-recognition/features-chin.jpg' height='250'>
+@divend
++++
+@snap[north-east]
+#### Viola-Jones (Haar Cascades) Method, 2001
+@snapend
+<img src='http://eyalarubas.com/images/face-detection-and-recognition/haar-all.jpg' height = '250'>  
++++
+@snap[north-east]
+#### Viola-Jones (Haar Cascades) Method, 2001
+@snapend
+<br />
+<img src='https://www.bogotobogo.com/python/OpenCV_Python/images/FaceDetection/stages.png' height = '400'>
 +++
 @snap[north-east]
 #### Histogram of Oriented Gradients (HOG), 2005
@@ -179,7 +215,8 @@ R-CNN
 @snap[north-east]
 ### Face Recognition
 @snapend
-Say something about face recognition
+<br />
+<img src = 'https://www.mantra.ai/wp-content/uploads/2017/06/faceRecognition.jpg' height = '350' />
 
 ---?image=https://source.unsplash.com/jG1z5o7NCq4/
 <!-- Algo stack
@@ -195,18 +232,30 @@ Say something about face recognition
 -->
 ### Current Landscape
 +++
+@snap[north-east]
 ### OpenCV
-![An image to explain OpenCV]()
+@snapend
+@div[left-50 fragment]
+<img src = 'https://www.superdatascience.com/wp-content/uploads/2017/07/False-Positive-1.png' width = '500' />
+@divend
+@div[right-50 fragment]
+<img src = 'https://www.superdatascience.com/wp-content/uploads/2017/07/False-Positive-Fix.png' width = '500' />
+@divend
++++
+@snap[north-east]
+### DLIB
+@snapend
+<br /><br />
+<img src = 'http://dlib.net/ml_guide.svg' height = '500'>
 +++
 @snap[north-east]
 ### DLIB
 @snapend
 @div[left-50 fragment]
-![dlib ML library](http://dlib.net/ml_guide.svg)
+<img src='http://1.bp.blogspot.com/-pPgDErLVJ_k/UvBGZk22ZXI/AAAAAAAAALs/c0mJmAVZnQE/s1600/face_fhog_filters.png' height = '300'>
 @divend
 @div[right-50 fragment]
-<img src='http://1.bp.blogspot.com/-pPgDErLVJ_k/UvBGZk22ZXI/AAAAAAAAALs/c0mJmAVZnQE/s1600/face_fhog_filters.png' height = '200'>
-<img src='https://i.stack.imgur.com/9bUgR.png' height = '200'>
+<img src='https://i.stack.imgur.com/9bUgR.png' height = '300'>
 @divend
 +++
 @snap[north-east]
@@ -248,4 +297,4 @@ Say something about face recognition
 @snap[north]
 ### A Gift!
 @snapend
-@fa[gift fa-3x]( > ) [@fa[github fa-3x]](https://github.com/ohjho/starter_guide_face_recog)
+@fa[gift fa-3x]( &#8594; ) [@fa[github fa-3x]](https://github.com/ohjho/starter_guide_face_recog)
