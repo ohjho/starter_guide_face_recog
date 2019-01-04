@@ -235,12 +235,20 @@ R-CNN
 @snap[north-east]
 ### OpenCV
 @snapend
-@div[left-50 fragment]
-<img src = 'https://github.com/ohjho/starter_guide_face_recog/raw/master/_templates/data/min_neig0.jpg' width = '500' />
-@divend
-@div[right-50 fragment]
-<img src = 'https://github.com/ohjho/starter_guide_face_recog/raw/master/_templates/data/min_neig1.jpg' width = '500' />
-@divend
+<br />
+<img src = 'https://github.com/ohjho/starter_guide_face_recog/raw/master/_templates/data/min_neig0.jpg' height = '500' />
++++
+@snap[north-east]
+### OpenCV
+@snapend
+<br />
+<img src = 'https://github.com/ohjho/starter_guide_face_recog/raw/master/_templates/data/min_neig1.jpg' height = '500' />
++++
+@snap[north-east]
+### OpenCV
+@snapend
+<br />
+<img src = 'https://github.com/ohjho/starter_guide_face_recog/raw/master/_templates/data/min_neig2.jpg' height = '500' />
 +++
 @snap[north-east]
 ### OpenCV
